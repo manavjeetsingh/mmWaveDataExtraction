@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<projectSpec>
+    <project
+        name="diag_mon_ref_mss"
+        deviceFamily="ARM"
+        isTargetManual="false"
+        device="Cortex R.IWR6843"
+        endianness="little"
+        cgtVersion="16.9.6.LTS"
+        connection="common/targetdb/connections/TIXDS110_Connection.xml"
+        toolChain="TI"
+        linkerCommandFile="r4f_linker3"
+        postannouncebuildStep="Preparing BIN format image"
+        description="Diag Monitor reference demo 68xx - mss"
+        launchWizard="false"
+        configurations="xwr68xx,xwr18xx"
+        compilerBuildOptions="
+        -mv7R4 --code_state=16 --float_support=VFPv3D16 -me -O3 -eo=.oer4f
+        -I${PROJECT_ROOT}
+        -I${CG_TOOL_ROOT}/include
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages
+        -I${DIAG_MON_DEMO_PARENT_DIR}
+        -I${DIAG_MON_DEMO_PARENT_DIR}/ti/demo/diag_mon_ref/
+        -I${MMWAVE_SDL_INSTALL_DIR}
+        -DSUBSYS_MSS
+        -DMMWAVE_SHMEM_TCMA_NUM_BANK=0
+        -DMMWAVE_SHMEM_TCMB_NUM_BANK=0
+        -DMMWAVE_SHMEM_BANK_SIZE=0x20000
+        -DMMWAVE_L3_CODEMEM_SIZE=0x100
+        -DDOWNLOAD_FROM_CCS
+        -DDebugP_ASSERT_ENABLED
+        -D_LITTLE_ENDIAN
+        -DAPP_RESOURCE_FILE=&apos;&lt;&apos;mmw_res.h&apos;&gt;&apos;
+        -g --diag_warning=225 --diag_wrap=off --display_error_number --gen_func_subsections=on --enum_type=int --abi=eabi"
+        linkerBuildOptions="
+        -m${ConfigName}_diag_mon_demo_mss.map -o${ConfigName}_diag_mon_demo_mss.xer4f
+        -I${PROJECT_ROOT}
+        -I${CG_TOOL_ROOT}/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/control/mmwave/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/control/mmwavelink/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/control/dpm/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/adcbuf/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/crc/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/dma/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/edma/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/esm/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/gpio/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/hwa/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/mailbox/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/osal/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/pinmux/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/soc/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/uart/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/utils/cli/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/utils/mathutils/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/datapath/dpu/rangeproc/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/datapath/dpedma/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/cbuff/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/utils/hsiheader/lib
+        -I${MMWAVE_SDL_INSTALL_DIR}/ti/csl/lib
+        -I${MMWAVE_SDL_INSTALL_DIR}/ti/diag/lib   		
+        --define=MMWAVE_SHMEM_TCMA_NUM_BANK=0
+        --define=MMWAVE_SHMEM_TCMB_NUM_BANK=0
+        --define=MMWAVE_SHMEM_BANK_SIZE=0x20000
+        --define=MMWAVE_L3_CODEMEM_SIZE=0x100
+        --reread_libs --diag_warning=225 --diag_error=10015 --diag_wrap=off --display_error_number --warn_sections --xml_link_info=xwr68xx_mmw_demo_mss_linkInfo.xml --rom_model --unused_section_elimination=on --disable_auto_rts -lrtsv7R4_T_le_v3D16_eabi.lib">
+        
+	<!-- Device specific Configuration -->
+        <configuration name="xwr68xx"  
+		compilerBuildOptions="
+        -DSOC_XWR68XX
+		-DMMWAVE_L3RAM_NUM_BANK=6"
+        linkerBuildOptions="
+        -llibesm_xwr68xx.aer4f
+        -llibgpio_xwr68xx.aer4f
+        -llibsoc_xwr68xx.aer4f
+        -llibpinmux_xwr68xx.aer4f
+        -llibcrc_xwr68xx.aer4f
+        -llibuart_xwr68xx.aer4f
+        -llibmailbox_xwr68xx.aer4f
+        -llibmmwavelink_xwr68xx.aer4f
+        -llibmmwave_xwr68xx.aer4f
+        -llibadcbuf_xwr68xx.aer4f
+        -llibdma_xwr68xx.aer4f
+        -llibedma_xwr68xx.aer4f
+        -llibcli_xwr68xx.aer4f
+        -llibhwa_xwr68xx.aer4f
+        -llibdpm_xwr68xx.aer4f
+        -llibmathutils.aer4f
+        -llibcbuff_xwr68xx.aer4f
+        -llibhsiheader_xwr68xx.aer4f
+        -llibrangeproc_hwa_xwr68xx.aer4f
+        -llibdpedma_hwa_xwr68xx.aer4f
+        -llibcsl_xwr68xx.aer4f
+		-llibdiag_xwr68xx.aer4f		
+        --define=MMWAVE_L3RAM_NUM_BANK=6
+		" 
+        postBuildStep="${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/scripts/ImageCreator/out2rprc/out2rprc.exe ${ConfigName}_diag_mon_demo_mss.xer4f ${ConfigName}_diag_mon_demo_mss.tmp;
+        ${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/scripts/ImageCreator/multicore_image_generator/MulticoreImageGen.exe LE 37 0x00000006 ${ConfigName}_diag_mon_demo.bin 0x35510000 ${ConfigName}_diag_mon_demo_mss.tmp 0xb5510000 ${COM_TI_MMWAVE_SDK_INSTALL_DIR}/firmware/radarss/xwr6xxx_radarss_rprc.bin  0xd5510000 ../../diag_mon_ref_dss/${ConfigName}/${ConfigName}_diag_mon_demo_dss.bin;
+        ${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/scripts/ImageCreator/crc_multicore_image/crc_multicore_image.exe ${ConfigName}_diag_mon_demo.bin ${ConfigName}_diag_mon_demo.tmp;
+        ${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/scripts/ImageCreator/append_bin_crc/gen_bincrc32.exe ${ConfigName}_diag_mon_demo.bin;"
+		/>
+		
+        <configuration name="xwr18xx"  
+		compilerBuildOptions="
+        -DSOC_XWR18XX
+		-DMMWAVE_L3RAM_NUM_BANK=8"
+        linkerBuildOptions="
+        -llibesm_xwr18xx.aer4f
+        -llibgpio_xwr18xx.aer4f
+        -llibsoc_xwr18xx.aer4f
+        -llibpinmux_xwr18xx.aer4f
+        -llibcrc_xwr18xx.aer4f
+        -llibuart_xwr18xx.aer4f
+        -llibmailbox_xwr18xx.aer4f
+        -llibmmwavelink_xwr18xx.aer4f
+        -llibmmwave_xwr18xx.aer4f
+        -llibadcbuf_xwr18xx.aer4f
+        -llibdma_xwr18xx.aer4f
+        -llibedma_xwr18xx.aer4f
+        -llibcli_xwr18xx.aer4f
+        -llibhwa_xwr18xx.aer4f
+        -llibdpm_xwr18xx.aer4f
+        -llibmathutils.aer4f
+        -llibcbuff_xwr18xx.aer4f
+        -llibhsiheader_xwr18xx.aer4f
+        -llibrangeproc_hwa_xwr18xx.aer4f
+        -llibdpedma_hwa_xwr18xx.aer4f
+        -llibcsl_xwr18xx.aer4f
+		-llibdiag_xwr18xx.aer4f		
+        --define=MMWAVE_L3RAM_NUM_BANK=8
+		" 
+        postBuildStep="${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/scripts/ImageCreator/out2rprc/out2rprc.exe ${ConfigName}_diag_mon_demo_mss.xer4f ${ConfigName}_diag_mon_demo_mss.tmp;
+        ${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/scripts/ImageCreator/multicore_image_generator/MulticoreImageGen.exe LE 37 0x00000008 ${ConfigName}_diag_mon_demo.bin 0x35510000 ${ConfigName}_diag_mon_demo_mss.tmp 0xb5510000 ${COM_TI_MMWAVE_SDK_INSTALL_DIR}/firmware/radarss/xwr18xx_radarss_rprc.bin   0xd5510000 ../../diag_mon_ref_dss/${ConfigName}/${ConfigName}_diag_mon_demo_dss.bin;
+        ${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/scripts/ImageCreator/crc_multicore_image/crc_multicore_image.exe ${ConfigName}_diag_mon_demo.bin ${ConfigName}_diag_mon_demo.tmp;
+        ${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/scripts/ImageCreator/append_bin_crc/gen_bincrc32.exe ${ConfigName}_diag_mon_demo.bin;"
+		/>		
+ 		
+        
+        <!-- Project PATH Variables -->
+        <pathVariable name="DIAG_MON_DEMO_PARENT_DIR" path="../../../" scope="project" />
+        <pathVariable name="MMWAVE_SDL_INSTALL_DIR" path="C:/ti/mmwave_sdl_01_00_00_10" scope="project" />				        
+
+        <!-- Project properties -->
+        <property name="type" value="rtsc"/>
+        <property name="products" value="com.ti.rtsc.SYSBIOS:6.73.01.01;com.ti.MMWAVE_SDK:03.05.00.04"/>
+        <property name="xdcToolsVersion" value="3.61.3.29_core"/>
+        <property name="target" value="ti.targets.arm.elf.R4F"/> <!-- FOR IWR6843 it was R4Ft -->
+        <property name="platform" value="ti.platforms.cortexR:AWR18XX:false:200" /> <!--"ti.platforms.cortexR:IWR68XX:false:200"/> -->
+        <property name="endianness" value="little"/>
+        <property name="output_format" value="elf"/>
+        <property name="buildProfile" value="release"/>
+        <property name="configuroOptions" value="--compileOptions &quot;--enum_type=int &quot; "/>
+
+        <!-- Project files -->
+        <file path="mss/diag_mon_mss_main.c" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="mss/diag_mon_mss.h"  openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="mss/diag_mon_mss_linker.cmd" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="mss/r4f_linker.cmd" openOnCreation="false" excludeFromBuild="false" action="copy"/>		
+        <file path="mss/diag_mon_mss.cfg" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/diag_mon_config.h" targetDirectory="common" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/diag_mon_output.h" targetDirectory="common" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="common/rfmonitor.c" openOnCreation="false" targetDirectory="common" excludeFromBuild="false" action="copy"/>
+        <file path="common/rfmonitor_defaultCfg.c" openOnCreation="false" targetDirectory="common" excludeFromBuild="false" action="copy"/>
+        <file path="common/mmwl_if.c" openOnCreation="false" targetDirectory="common" excludeFromBuild="false" action="copy"/>		
+        <file path="common/mmwl_osi_tirtos.c" openOnCreation="false" targetDirectory="common" excludeFromBuild="false" action="copy"/>
+        <file path="osal/src/tirtos/osal_CycleprofilerP_tirtos.c" openOnCreation="false" targetDirectory="osal/src/tirtos" excludeFromBuild="false" action="copy"/>
+        <file path="osal/src/tirtos/osal_DebugP_tirtos.c" openOnCreation="false" targetDirectory="osal/src/tirtos" excludeFromBuild="false" action="copy"/>
+        <file path="osal/src/tirtos/osal_HwiP_tirtos.c" openOnCreation="false" targetDirectory="osal/src/tirtos" excludeFromBuild="false" action="copy"/>			
+        <file path="osal/src/tirtos/osal_MemoryP_tirtos.c" openOnCreation="false" targetDirectory="osal/src/tirtos" excludeFromBuild="false" action="copy"/>	
+        <file path="osal/src/tirtos/osal_r4f_esmdrv_tirtos.c" openOnCreation="false" targetDirectory="osal/src/tirtos" excludeFromBuild="false" action="copy"/>			
+        <file path="osal/src/tirtos/osal_r4f_interrupt_tirtos.c" openOnCreation="false" targetDirectory="osal/src/tirtos" excludeFromBuild="false" action="copy"/>
+        <file path="osal/src/tirtos/osal_SemaphoreP_tirtos.c" openOnCreation="false" targetDirectory="osal/src/tirtos" excludeFromBuild="false" action="copy"/>
+        <file path="osal/MemoryP.h" targetDirectory="osal" openOnCreation="false" excludeFromBuild="false" action="copy"/>	
+        <file path="osal/DebugP.h" targetDirectory="osal" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="osal/HwiP.h" targetDirectory="osal" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="osal/CycleprofilerP.h" targetDirectory="osal" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="osal/SemaphoreP.h" targetDirectory="osal" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="osal/mmwave_sdk_port.h" targetDirectory="osal" openOnCreation="false" excludeFromBuild="false" action="copy"/>	
+        <file path="osal/osal.h" targetDirectory="osal" openOnCreation="false" excludeFromBuild="false" action="copy"/>	
+        <file path="osal/tirtos_config.h" targetDirectory="osal" openOnCreation="false" excludeFromBuild="false" action="copy"/>	        
+        <file path="diag/diag_mss.c" openOnCreation="false" targetDirectory="diag" excludeFromBuild="false" action="copy"/>		
+        <file path="diag/diag_error_code.h" openOnCreation="false" targetDirectory="diag" excludeFromBuild="false" action="copy"/>				
+
+
+    </project>
+</projectSpec>

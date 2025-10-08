@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Building Automation and Lighting Overview",
+        "mainCategories": [["Applications"]],
+        "subCategories": ["Industrial", "Building Automation and Lighting"],
+        "location": "../../../applications/industrial/building_automation_and_lighting/building_automation_and_lighting_overview.html",
+        "resourceType": "file",
+        "resourceClass": ["document"]
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Corner Radar Overview",
+        "mainCategories": [["Applications"]],
+        "subCategories": ["Automotive", "Advanced Driver Assistance Systems"],
+        "location": "../../../applications/automotive/advanced_driver_assistance_systems/corner_radar_overview.html",
+        "resourceType": "file",
+        "resourceClass": ["document"]
+    },
+    {
+        "name": "Front Radar Overview",
+        "mainCategories": [["Applications"]],
+        "subCategories": ["Automotive", "Advanced Driver Assistance Systems"],
+        "location": "../../../applications/automotive/advanced_driver_assistance_systems/front_radar_overview.html",
+        "resourceType": "file",
+        "resourceClass": ["document"]
+    }
+]

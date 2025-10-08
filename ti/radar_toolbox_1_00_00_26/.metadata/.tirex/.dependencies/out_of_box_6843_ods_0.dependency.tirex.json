@@ -1,0 +1,8 @@
+[
+    {
+        "files": [
+            "+main.c -> main.c",
+            "+antenna_geometry.c -> antenna_geometry.c"
+        ]
+    }
+]

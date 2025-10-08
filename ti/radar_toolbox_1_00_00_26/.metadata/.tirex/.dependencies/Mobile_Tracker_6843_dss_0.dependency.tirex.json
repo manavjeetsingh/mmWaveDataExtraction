@@ -1,0 +1,14 @@
+[
+    {
+        "files": [
+            "+../../../../Long_Range_People_Detection/src/6843/dss/dss_main.c -> dss_main.c",
+            "+../../../../Long_Range_People_Detection/src/6843/dss/mmw_dss.h -> mmw_dss.h",
+            "+../../../../Long_Range_People_Detection/src/6843/dss/mmw_dss.cfg -> mmw_dss.cfg",
+            "+../../../../Long_Range_People_Detection/src/6843/common/mmw_config.h -> mmw_config.h",
+            "+../../../../Long_Range_People_Detection/src/6843/common/mmw_output.h -> mmw_output.h",
+            "+../../../../Long_Range_People_Detection/src/6843/mmw_res.h -> mmw_res.h",
+            "+../../../../Long_Range_People_Detection/src/6843/dss/c674x_linker.cmd -> c674x_linker.cmd",
+            "+../../../../Long_Range_People_Detection/src/6843/dss/mmw_dss_linker.cmd -> mmw_dss_linker.cmd"
+        ]
+    }
+]

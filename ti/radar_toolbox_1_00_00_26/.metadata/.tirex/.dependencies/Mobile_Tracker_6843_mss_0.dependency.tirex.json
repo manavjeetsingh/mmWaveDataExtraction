@@ -1,0 +1,18 @@
+[
+    {
+        "files": [
+            "+mmw_cli.c -> mmw_cli.c",
+            "+../../../../Long_Range_People_Detection/src/6843/mss/mss_main.c -> mss_main.c",
+            "+../../../../Long_Range_People_Detection/src/6843/mss/mmw_lvds_stream.c -> mmw_lvds_stream.c",
+            "+../../../../Long_Range_People_Detection/src/6843/mss/tracker_utils.c -> tracker_utils.c",
+            "+../../../../Long_Range_People_Detection/src/6843/mss/tracker_utils.h -> tracker_utils.h",
+            "+../../../../Long_Range_People_Detection/src/6843/mss/mmw_mss.h -> mmw_mss.h",
+            "+../../../../Long_Range_People_Detection/src/6843/mss/mmw_mss.cfg -> mmw_mss.cfg",
+            "+../../../../Long_Range_People_Detection/src/6843/mss/mmw_mss_linker.cmd -> mmw_mss_linker.cmd",
+            "+../../../../Long_Range_People_Detection/src/6843/mss/r4f_linker.cmd -> r4f_linker.cmd",
+            "+../../../../Long_Range_People_Detection/src/6843/common/mmw_config.h -> mmw_config.h",
+            "+../../../../Long_Range_People_Detection/src/6843/common/mmw_output.h -> mmw_output.h",
+            "+../../../../Long_Range_People_Detection/src/6843/mmw_res.h -> mmw_res.h"
+        ]
+    }
+]

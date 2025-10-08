@@ -1,0 +1,1602 @@
+[
+    {
+        "name": "Antenna Radiation Patterns",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../docs/antenna_radiation_patterns/antennas_overview.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Antennas Overview",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Antenna Radiation Patterns"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/antenna_radiation_patterns/antennas_overview.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "AWR6843ISK",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Antenna Radiation Patterns"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/antenna_radiation_patterns/awr6843isk.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "IWR1443BOOST",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Antenna Radiation Patterns"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/antenna_radiation_patterns/iwr1443boost.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "IWR1642BOOST",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Antenna Radiation Patterns"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/antenna_radiation_patterns/iwr1642boost.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "IWR1843BOOST",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Antenna Radiation Patterns"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/antenna_radiation_patterns/iwr1843boost.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "IWR6843AOP",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Antenna Radiation Patterns"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/antenna_radiation_patterns/iwr6843aop.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "IWR6843HA",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Antenna Radiation Patterns"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/antenna_radiation_patterns/iwr6843ha.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "IWR6843ISK",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Antenna Radiation Patterns"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/antenna_radiation_patterns/iwr6843isk.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "IWR6843LEVM",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Antenna Radiation Patterns"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/antenna_radiation_patterns/iwr6843levm.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "IWR6843ODS",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Antenna Radiation Patterns"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/antenna_radiation_patterns/iwr6843ods.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "IWRL6432BOOST",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Antenna Radiation Patterns"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/antenna_radiation_patterns/iwrl6432boost.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Certification",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../docs/certification/certification_overview.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "RF Exposure Report",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "AWR1243BOOST",
+            "RED Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/AWR1243BOOST/RED_Certification_Collateral/RF_Exposure_Report.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Certification Overview",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/certification_overview.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "En 301 091 Test Report",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "IWR1843BOOST",
+            "RED Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/IWR1843BOOST/RED_Certification_Collateral/en_301_091_test_report.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "En 302 264 Test Report",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "IWR1843BOOST",
+            "RED Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/IWR1843BOOST/RED_Certification_Collateral/en_302_264_test_report.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Radio Equipment Directive Test Plan",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "IWR1843BOOST",
+            "RED Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/IWR1843BOOST/RED_Certification_Collateral/radio_equipment_directive_test_plan.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "RF Exposure Report",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "IWR1843BOOST",
+            "RED Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/IWR1843BOOST/RED_Certification_Collateral/rf_exposure_report.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "FCC 47 Cfr Part 15 Subpart B",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "IWR6843AOPEVM",
+            "FCC Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/IWR6843AOPEVM/FCC_Certification_Collateral/fcc_47_cfr_part 15_subpart_b.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "FCC 47 Cfr Part 15 255 Subpart C",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "IWR6843AOPEVM",
+            "FCC Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/IWR6843AOPEVM/FCC_Certification_Collateral/fcc_47_cfr_part_15_255_subpart_c.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Mpe Sar Exemption",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "IWR6843AOPEVM",
+            "FCC Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/IWR6843AOPEVM/FCC_Certification_Collateral/mpe_sar_exemption.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "12511671-tp1v2 Radio Equipment Directive Test Plan",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "IWR6843AOPEVM",
+            "RED Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/IWR6843AOPEVM/RED certification collateral/12511671-TP1V2 Radio Equipment Directive Test Plan.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "393152 - 2trfwl (mpe En62311)",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "IWR6843AOPEVM",
+            "RED Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/IWR6843AOPEVM/RED certification collateral/393152 - 2TRFWL (MPE EN62311).pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "393152 Trfsaf Iec62368 1b (full)",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "IWR6843AOPEVM",
+            "RED Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/IWR6843AOPEVM/RED certification collateral/393152 TRFSAF IEC62368_1B (FULL).pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "393152- 1r1trfwl (etsi En 305 550)",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "IWR6843AOPEVM",
+            "RED Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/IWR6843AOPEVM/RED certification collateral/393152- 1R1TRFWL (ETSI EN 305 550).pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "393152trfemc (301 489-1 3)",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "IWR6843AOPEVM",
+            "RED Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/IWR6843AOPEVM/RED certification collateral/393152TRFEMC (301 489-1_3).pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "FCC 47 Cfr Part 15 255 Subpart C",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "IWR6843ISK",
+            "FCC Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/IWR6843ISK/FCC_Certification_Collateral/fcc_47_cfr_part_15_255_subpart_c.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Mpe Sar Exemption",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "IWR6843ISK",
+            "FCC Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/IWR6843ISK/FCC_Certification_Collateral/mpe_sar_exemption.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "12511671-e1v6 En305 550 V2.1.0 Test Report IWR6843",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "IWR6843ISK",
+            "RED Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/IWR6843ISK/RED certification collateral/12511671-E1V6 EN305 550 v2.1.0 Test Report IWR6843.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "12511671-e2v5 En 62311 RF Exposure Report IWR6843",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "IWR6843ISK",
+            "RED Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/IWR6843ISK/RED certification collateral/12511671-E2V5 EN 62311 RF Exposure Report IWR6843.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "12511671-e3v6 Emc Test Report IWR6843ISK",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "IWR6843ISK",
+            "RED Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/IWR6843ISK/RED certification collateral/12511671-E3V6 EMC Test Report IWR6843ISK.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "12511671-tp1v1 Radio Equipment Directive Test Plan",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "IWR6843ISK",
+            "RED Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/IWR6843ISK/RED certification collateral/12511671-TP1V1 Radio Equipment Directive Test Plan.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "E508514-a6001-informative-2-reissue",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "IWR6843ISK",
+            "RED Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/IWR6843ISK/RED certification collateral/E508514-A6001-Informative-2-Reissue.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "12511671-tp1v2 Radio Equipment Directive Test Plan",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "IWR6843ISK-ODS",
+            "RED Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/IWR6843ISK-ODS/RED certification collateral/12511671-TP1V2 Radio Equipment Directive Test Plan.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "12927418-e1v3 Emc Test Report IWR6843ISK-ODS",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "IWR6843ISK-ODS",
+            "RED Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/IWR6843ISK-ODS/RED certification collateral/12927418-E1V3 EMC Test Report IWR6843ISK-ODS.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "12927418-e4v4 En305 550 V2.1.0 Test Report IWR6843ISK-ODS",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "IWR6843ISK-ODS",
+            "RED Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/IWR6843ISK-ODS/RED certification collateral/12927418-E4V4 EN305 550 v2.1.0 Test Report IWR6843ISK-ODS.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "12927418-e5v5 En 62311 RF Exposure Report IWR6843ISK-ODS",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "IWR6843ISK-ODS",
+            "RED Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/IWR6843ISK-ODS/RED certification collateral/12927418-E5V5 EN 62311 RF Exposure Report IWR6843ISK-ODS.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "E508514-a6001-informative-2-reissue",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "IWR6843ISK-ODS",
+            "RED Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/IWR6843ISK-ODS/RED certification collateral/E508514-A6001-Informative-2-Reissue.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "RTRIM Modification Guide",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../docs/certification/RTRIM_Modification_Guide/docs/rtrim_api_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "RTRIM API Users Guide",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "RTRIM Modification Guide"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/RTRIM_Modification_Guide/docs/rtrim_api_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "RF Exposure Report",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "xWR1443BOOST",
+            "RED Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/xWR1443BOOST/RED_Certification_Collateral/RF_Exposure_Report.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "RF Exposure Report",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Certification",
+            "xWR1642BOOST",
+            "RED Certification Collateral"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/certification/xWR1642BOOST/RED_Certification_Collateral/RF_Exposure_Report.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Experiments",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../docs/experiments/experiments_overview.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Building Occupancy Detection Using mmWave",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Experiments"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/experiments/Building_Occupancy_Detection_Using_mmWave.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Cliff Detection Using mmWave",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Experiments"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/experiments/Cliff_Detection_using_mmWave.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Detecting Approaching Objects For Elevator Doors",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Experiments"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/experiments/Detecting_Approaching_Objects_for_Elevator_Doors.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Detecting Gesture Motions Through Smoke Or Glass",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Experiments"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/experiments/Detecting_Gesture_Motions_through_Smoke_or_Glass.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Detecting Humans At 50 Meters And Filtering False Detections With Gtrack Software",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Experiments"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/experiments/Detecting_Humans_at_50_Meters_and_Filtering_False_Detections_with_GTrack_Software.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Detecting Quarters Using mmWave",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Experiments"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/experiments/Detecting_Quarters_Using_mmWave.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Detecting Walls Of Different Materials",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Experiments"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/experiments/Detecting_Walls_of_Different_Materials.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Experiments Overview",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Experiments"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/experiments/experiments_overview.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Fall Detection Using mmWave",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Experiments"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/experiments/Fall_Detection_Using_mmWave.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Elderly Care Fall Detection Using IWR6843",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Experiments",
+            "Images"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../docs/experiments/images/Elderly_Care_Fall_Detection_using_IWR6843/Living_Room_Fall_Detection_GUI_overview.png",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Measuring Object Height Using mmWave",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Experiments"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/experiments/Measuring_Object_Height_Using_mmWave.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "mmWave Vs Ultrasonic",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Experiments"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/experiments/mmWave_vs_Ultrasonic.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "People Counting Through Plastic And Drywall And Wood",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Experiments"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/experiments/People_Counting_through_Plastic_and_Drywall_and_Wood.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Radar And Lidar Comparison",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Experiments"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/experiments/Radar_and_Lidar_Comparison.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Response Of Radar To Rain",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Experiments"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/experiments/Response_of_Radar_to_Rain.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Very Fine Motion Detection Vs PIR",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Experiments"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/experiments/Very_Fine_Motion_Detection_vs_PIR.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Zone Occupancy Detection Using mmWave",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Experiments"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/experiments/Zone_Occupancy_Detection_Using_mmWave.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "DCA1000 Debugging Handbook",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Hardware Guides"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/hardware_guides/dca1000_debugging_handbook.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "DCA1000 mmWave Studio User Guide",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Hardware Guides"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/hardware_guides/dca1000_mmwave_studio_user_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Determine Silicon Revision",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Hardware Guides"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/hardware_guides/determine_silicon_revision.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "EVM Setup Operational Modes",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Hardware Guides"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/hardware_guides/evm_setup_operational_modes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Radar Toolbox Manifest",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/RADAR_TOOLBOX_manifest.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Radar Toolbox Release Notes",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/radar_toolbox_release_notes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Readme",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/readme.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Understanding UART Data Output Format",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Software Guides"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/software_guides/Understanding_UART_Data_Output_Format.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Using CCS Debug",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Software Guides"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/software_guides/using_ccs_debug.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Using Uniflash With mmWave",
+        "mainCategories": [
+            [
+                "Documentation"
+            ]
+        ],
+        "subCategories": [
+            "Software Guides"
+        ],
+        "resourceType": "file",
+        "location": "../../../docs/software_guides/using_uniflash_with_mmwave.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    }
+]

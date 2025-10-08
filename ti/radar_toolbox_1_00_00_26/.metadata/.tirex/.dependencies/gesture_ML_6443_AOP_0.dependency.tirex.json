@@ -1,0 +1,36 @@
+[
+    {
+        "files": [
+            "+mss/cli.c -> cli.c",
+            "+mss/data_path.c -> data_path.c",
+            "+mss/data_path.h -> ti/demo/xwr64xx/mmw/data_path.h",
+            "+mss/gesture.c -> gesture.c",
+            "+mss/gesture.h -> gesture.h",
+            "+mss/main.c -> main.c",
+            "+mss/mmw.cfg -> mmw.cfg",
+            "+mss/mmw_cli.c -> mmw_cli.c",
+            "+mss/mmw_output.h -> mmw_output.h",
+            "+mss/mmw_res.h -> mmw_res.h",
+            "+mss/mss_mmw_linker.cmd -> mss_mmw_linker.cmd",
+            "+mss/r4f_linker.cmd -> r4f_linker.cmd",
+            "+include/dopplerproc/dopplerprochwa.h -> include/dopplerproc/dopplerprochwa.h",
+            "+include/dopplerproc/src/dopplerprochwa.c -> include/dopplerproc/src/dopplerprochwa.c",
+            "+include/dopplerproc/include/dopplerprochwainternal.h -> include/dopplerproc/include/dopplerprochwainternal.h",
+            "+include/neuralnet/ann_params.h -> include/neuralnet/ann_params.h",
+            "+include/neuralnet/b0.h -> include/neuralnet/b0.h",
+            "+include/neuralnet/b1.h -> include/neuralnet/b1.h",
+            "+include/neuralnet/b2.h -> include/neuralnet/b2.h",
+            "+include/neuralnet/mean.h -> include/neuralnet/mean.h",
+            "+include/neuralnet/std.h -> include/neuralnet/std.h",
+            "+include/neuralnet/w0.h -> include/neuralnet/w0.h",
+            "+include/neuralnet/w1.h -> include/neuralnet/w1.h",
+            "+include/neuralnet/w2.h -> include/neuralnet/w2.h",
+            "+include/objdethwa/objectdetection.h -> include/objdethwa/objectdetection.h",
+            "+include/objdethwa/include/objectdetectioninternal.h -> include/objdethwa/include/objectdetectioninternal.h",
+            "+include/objdethwa/src/objectdetection.c -> include/objdethwa/src/objectdetection.c",
+            "+include/rangeproc/src/rangeprochwa.c -> include/rangeproc/src/rangeprochwa.c",
+            "+include/utils/ann_utils.c -> include/utils/ann_utils.c",
+            "+include/utils/ann_utils.h -> include/utils/ann_utils.h"
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Robotics Overview",
+        "mainCategories": [["Applications"]],
+        "subCategories": ["Industrial", "Robotics"],
+        "location": "../../../applications/industrial/robotics/robotics_overview.html",
+        "resourceType": "file",
+        "resourceClass": ["document"]
+    },
+
+    {
+        "name": "Industrial Robots Overview",
+        "mainCategories": [["Applications"]],
+        "subCategories": ["Industrial", "Robotics"],
+        "location": "../../../applications/industrial/robotics/industrial_robots_overview.html",
+        "resourceType": "file",
+        "resourceClass": ["document"]
+    },
+
+    {
+        "name": "AGV and AMR Overview",
+        "mainCategories": [["Applications"]],
+        "subCategories": ["Industrial", "Robotics"],
+        "location": "../../../applications/industrial/robotics/agv_and_amr_overview.html",
+        "resourceType": "file",
+        "resourceClass": ["document"]
+    }
+]

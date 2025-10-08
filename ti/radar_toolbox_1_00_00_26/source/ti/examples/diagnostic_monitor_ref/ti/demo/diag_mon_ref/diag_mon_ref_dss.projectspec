@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<projectSpec>
+    <project
+        name="diag_mon_ref_dss"
+        deviceFamily="C6000"
+        isTargetManual="false"
+        device="IWR6843"
+        endianness="little"
+        cgtVersion="8.3.3"
+        connection="common/targetdb/connections/TIXDS110_Connection.xml"
+        toolChain="TI"
+        linkerCommandFile="c674_linker.cmd"
+        postannouncebuildStep="Preparing BIN format image"
+        postBuildStep="rm -f ${PROJECT_ROOT}/${ConfigName}/${ConfigName}_diag_mon_dss_Demo.bin;
+		${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/scripts/ImageCreator/out2rprc/out2rprc.exe ${ConfigName}_diag_mon_demo_dss.xe674 ${ConfigName}_diag_mon_demo_dss.bin"
+        description="Diag Monitor demo 68xx - dss"
+        launchWizard="false"
+        configurations="xwr68xx, xwr18xx"
+        compilerBuildOptions="
+        -mv6740 -mf3 -mo -O3
+        -I${PROJECT_ROOT}
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages
+        -I${MMWAVE_SDL_INSTALL_DIR}	
+        -I${DIAG_MON_DEMO_PARENT_DIR}
+        -I${DIAG_MON_DEMO_PARENT_DIR}/ti/demo/diag_mon_ref/
+        -DSUBSYS_DSS
+        -DMMWAVE_SHMEM_TCMA_NUM_BANK=0
+        -DMMWAVE_SHMEM_TCMB_NUM_BANK=0
+        -DMMWAVE_SHMEM_BANK_SIZE=0x20000
+        -DMMWAVE_L3_CODEMEM_SIZE=0x100      
+        -DDOWNLOAD_FROM_CCS
+        -DDebugP_ASSERT_ENABLED
+        -D_LITTLE_ENDIAN
+        --gcc -g --diag_warning=225 --diag_error=10015 --diag_wrap=off --display_error_number --abi=eabi --obj_extension .oe674"
+        linkerBuildOptions="
+        -m${ConfigName}_diag_mon_demo_dss.map -o${ConfigName}_diag_mon_demo_dss.xe674
+        -I${PROJECT_ROOT}
+        -I${CG_TOOL_ROOT}/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/crc/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/soc/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/mailbox/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/edma/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/adcbuf/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/cbuff/lib
+        -I${MMWAVE_SDL_INSTALL_DIR}/ti/csl/lib
+        -I${MMWAVE_SDL_INSTALL_DIR}/ti/diag/lib   
+        --define=MMWAVE_SHMEM_TCMA_NUM_BANK=0
+        --define=MMWAVE_SHMEM_TCMB_NUM_BANK=0
+        --define=MMWAVE_SHMEM_BANK_SIZE=0x20000
+        --define=MMWAVE_L3_CODEMEM_SIZE=0x100               
+        --reread_libs --diag_warning=225 --diag_error=10015 --diag_wrap=off --display_error_number --warn_sections --xml_link_info=xwr68xx_mmw_demo_dss_linkInfo.xml --ram_model --unused_section_elimination=on --disable_auto_rts -lrts6740_elf.lib">
+        
+	<!-- Device specific Configuration -->
+        <configuration name="xwr68xx"  
+		compilerBuildOptions="
+        -DSOC_XWR68XX
+		-DMMWAVE_L3RAM_NUM_BANK=6"
+        linkerBuildOptions="
+        -llibsoc_xwr68xx.ae674
+        -llibcrc_xwr68xx.ae674
+        -llibmailbox_xwr68xx.ae674
+        -llibedma_xwr68xx.ae674
+        -llibadcbuf_xwr68xx.ae674
+        -llibcsl_xwr68xx.ae674
+		-llibdiag_xwr68xx.ae674
+        --define=MMWAVE_L3RAM_NUM_BANK=6
+		--define=SOC_XWR68XX
+		--define=MMWAVE_L3RAM_SIZE=0x000A0000
+		" 
+		/>
+         <configuration name="xwr18xx"  
+		compilerBuildOptions="
+        -DSOC_XWR18XX
+		-DMMWAVE_L3RAM_NUM_BANK=6"
+        linkerBuildOptions="
+        -llibsoc_xwr18xx.ae674
+        -llibcrc_xwr18xx.ae674
+        -llibmailbox_xwr18xx.ae674
+        -llibedma_xwr18xx.ae674
+        -llibcsl_xwr18xx.ae674
+		-llibdiag_xwr18xx.ae674
+        --define=MMWAVE_L3RAM_NUM_BANK=6
+		--define=SOC_XWR68XX
+		--define=MMWAVE_L3RAM_SIZE=0x000A0000
+		" 
+		/>
+		
+        <!-- Project PATH Variables -->
+        <pathVariable name="DIAG_MON_DEMO_PARENT_DIR" path="../../../" scope="project" />
+        <pathVariable name="MMWAVE_SDL_INSTALL_DIR" path="C:/ti/mmwave_sdl_01_00_00_10" scope="project" />				
+
+        <!-- Project properties -->
+        <property name="products" value="ti.mathlib.c674x:3.1.2.1;ti.mas.dsplib.c64Px:3.4.0.0;com.ti.MMWAVE_SDK:03.05.00.04"/>
+        <property name="xdcToolsVersion" value="3.50.08.24_core"/>
+        <property name="target" value="ti.targets.elf.C674"/>
+        <property name="platform" value="ti.platforms.c6x:IWR68XX:false:600"/>
+        <property name="endianness" value="little"/>
+        <property name="output_format" value="elf"/>
+        <property name="buildProfile" value="release"/>
+        <property name="configuroOptions" value="--compileOptions &quot;--enum_type=int &quot; "/>
+
+        <!-- Project files -->
+        <file path="dss/diag_mon_dss_main.c"  openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="dss/intvecs.asm" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="dss/diag_mon_dss.h" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="dss/diag_mon_dss_linker.cmd" openOnCreation="false" excludeFromBuild="false" action="copy"/>		
+        <file path="dss/c674_linker.cmd" openOnCreation="false" excludeFromBuild="false" action="copy"/>		
+        <file path="diag/diag_dss.c" targetDirectory="diag" openOnCreation="false" excludeFromBuild="false" action="copy"/>		
+        <file path="diag/diag_error_code.h" targetDirectory="diag" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="osal/src/nonos/osal_c674_esmdrv_nonos.c" targetDirectory="osal/src/nonos" openOnCreation="false" excludeFromBuild="false" action="copy"/>		
+        <file path="osal/src/nonos/osal_c674_interrupt_nonos.c" targetDirectory="osal/src/nonos" openOnCreation="false" excludeFromBuild="false" action="copy"/>		
+        <file path="osal/src/nonos/osal_cycle_profiler_nonos.c" targetDirectory="osal/src/nonos" openOnCreation="false" excludeFromBuild="false" action="copy"/>	
+        <file path="osal/src/nonos/osal_DebugP_nonos.c" targetDirectory="osal/src/nonos" openOnCreation="false" excludeFromBuild="false" action="copy"/>	
+        <file path="osal/src/nonos/osal_Event_nonos.c" targetDirectory="osal/src/nonos" openOnCreation="false" excludeFromBuild="false" action="copy"/>	
+        <file path="osal/src/nonos/osal_HwiP_nonos.c" targetDirectory="osal/src/nonos" openOnCreation="false" excludeFromBuild="false" action="copy"/>	
+        <file path="osal/src/nonos/osal_MemoryP_nonos.c" targetDirectory="osal/src/nonos" openOnCreation="false" excludeFromBuild="false" action="copy"/>	
+        <file path="osal/src/nonos/osal_SemaphoreP_nonos.c" targetDirectory="osal/src/nonos" openOnCreation="false" excludeFromBuild="false" action="copy"/>	
+        <file path="osal/MemoryP.h" targetDirectory="osal" openOnCreation="false" excludeFromBuild="false" action="copy"/>	
+        <file path="osal/DebugP.h" targetDirectory="osal" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="osal/HwiP.h" targetDirectory="osal" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="osal/CycleprofilerP.h" targetDirectory="osal" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="osal/SemaphoreP.h" targetDirectory="osal" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="osal/mmwave_sdk_port.h" targetDirectory="osal" openOnCreation="false" excludeFromBuild="false" action="copy"/>	
+        <file path="osal/osal.h" targetDirectory="osal" openOnCreation="false" excludeFromBuild="false" action="copy"/>	
+    </project>
+</projectSpec>

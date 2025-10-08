@@ -1,0 +1,21 @@
+[
+    {
+        "files": [
+            "+mss/data_path.c -> data_path.c",
+            "+mss/data_path.h -> data_path.h",
+            "+mss/main.c -> main.c",
+            "+mss/mmw_cli.c -> mmw_cli.c",
+            "+mss/mmw_lvds_stream.c -> mmw_lvds_stream.c",
+            "+mss/mmw_lvds_stream.h -> mmw_lvds_stream.h",
+            "+mss/tracker_utils.c -> tracker_utils.c",
+            "+mss/tracker_utils.h -> tracker_utils.h",
+            "+mss/mmw.h -> mmw.h",
+            "+mss/mmw_config.h -> mmw_config.h",
+            "+mss/mmw_output.h -> mmw_output.h",
+            "+mss/mmw_res.h -> mmw_res.h",
+            "+mss/mmw.cfg -> mmw.cfg",
+            "+mss/mss_mmw_linker.cmd -> mss_mmw_linker.cmd",
+            "+mss/r4f_linker.cmd -> r4f_linker.cmd"
+        ]
+    }
+]

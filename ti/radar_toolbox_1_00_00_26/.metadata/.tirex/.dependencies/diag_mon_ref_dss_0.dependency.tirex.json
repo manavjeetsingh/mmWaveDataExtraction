@@ -1,0 +1,28 @@
+[
+    {
+        "files": [
+            "+dss/diag_mon_dss_main.c -> diag_mon_dss_main.c",
+            "+dss/intvecs.asm -> intvecs.asm",
+            "+dss/diag_mon_dss.h -> diag_mon_dss.h",
+            "+dss/diag_mon_dss_linker.cmd -> diag_mon_dss_linker.cmd",
+            "+dss/c674_linker.cmd -> c674_linker.cmd",
+            "+diag/diag_dss.c -> diag/diag_dss.c",
+            "+diag/diag_error_code.h -> diag/diag_error_code.h",
+            "+osal/src/nonos/osal_c674_esmdrv_nonos.c -> osal/src/nonos/osal_c674_esmdrv_nonos.c",
+            "+osal/src/nonos/osal_c674_interrupt_nonos.c -> osal/src/nonos/osal_c674_interrupt_nonos.c",
+            "+osal/src/nonos/osal_cycle_profiler_nonos.c -> osal/src/nonos/osal_cycle_profiler_nonos.c",
+            "+osal/src/nonos/osal_DebugP_nonos.c -> osal/src/nonos/osal_DebugP_nonos.c",
+            "+osal/src/nonos/osal_Event_nonos.c -> osal/src/nonos/osal_Event_nonos.c",
+            "+osal/src/nonos/osal_HwiP_nonos.c -> osal/src/nonos/osal_HwiP_nonos.c",
+            "+osal/src/nonos/osal_MemoryP_nonos.c -> osal/src/nonos/osal_MemoryP_nonos.c",
+            "+osal/src/nonos/osal_SemaphoreP_nonos.c -> osal/src/nonos/osal_SemaphoreP_nonos.c",
+            "+osal/MemoryP.h -> osal/MemoryP.h",
+            "+osal/DebugP.h -> osal/DebugP.h",
+            "+osal/HwiP.h -> osal/HwiP.h",
+            "+osal/CycleprofilerP.h -> osal/CycleprofilerP.h",
+            "+osal/SemaphoreP.h -> osal/SemaphoreP.h",
+            "+osal/mmwave_sdk_port.h -> osal/mmwave_sdk_port.h",
+            "+osal/osal.h -> osal/osal.h"
+        ]
+    }
+]

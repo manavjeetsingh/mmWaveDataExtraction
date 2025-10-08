@@ -1,0 +1,27 @@
+[
+    {
+        "files": [
+            "+datapath/dpc/objectdetection/objdethwa/objectdetection.h -> datapath/dpc/objectdetection/objdethwa/objectdetection.h",
+            "+datapath/dpu/rangeproc/rangeprochwa.h -> datapath/dpu/rangeproc/rangeprochwa.h",
+            "+datapath/dpu/rangeproc/rangeproc_common.h -> datapath/dpu/rangeproc/rangeproc_common.h",
+            "+mss/utils/mmwdemo_adcconfig.c -> utils/mmwdemo_adcconfig.c",
+            "+mss/utils/mmwdemo_flash.c -> utils/mmwdemo_flash.c",
+            "+mss/utils/mmwdemo_monitor.c -> utils/mmwdemo_monitor.c",
+            "+mss/utils/mmwdemo_rfparser.c -> utils/mmwdemo_rfparser.c",
+            "+mss/utils/mmwdemo_error.h -> utils/mmwdemo_error.h",
+            "+mss/utils/mmwdemo_adcconfig.h -> utils/mmwdemo_adcconfig.h",
+            "+mss/utils/mmwdemo_flash.h -> utils/mmwdemo_flash.h",
+            "+mss/utils/mmwdemo_monitor.h -> utils/mmwdemo_monitor.h",
+            "+mss/utils/mmwdemo_rfparser.h -> utils/mmwdemo_rfparser.h",
+            "+include/mmw_config.h -> include/mmw_config.h",
+            "+include/mmw_output.h -> include/mmw_output.h",
+            "+mss/mss_main.c -> mss_main.c",
+            "+mss/mmw_mss.cfg -> mmw_mss.cfg",
+            "+mss/mmw_mss.h -> mmw_mss.h",
+            "+mss/mmw_cli.c -> mmw_cli.c",
+            "+mss/mmw_lvds_stream.c -> mmw_lvds_stream.c",
+            "+mss/mmw_lvds_stream.h -> mmw_lvds_stream.h",
+            "+mmw_res.h -> mmw_res.h"
+        ]
+    }
+]

@@ -1,0 +1,4 @@
+configPathName	C:\ti\Repos\RTB\radar_toolbox\tools\visualizers\Low_Power_Visualizer\chirpConfigs6432
+configFileName	major_motion_tracking_highbw_10m.cfg
+cliComPortNum	94
+dataComPortNum	94

@@ -1,0 +1,12 @@
+[
+    {
+        "files": [
+            "+mss/mss_main.c -> mss_main.c",
+            "+mss/mmw_cli.c -> mmw_cli.c",
+            "+mss/mmw_mss.h -> mmw_mss.h",
+            "+mss/zoneoccupancy.c -> zoneoccupancy.c",
+            "+mss/zoneoccupancy.h -> zoneoccupancy.h",
+            "+../../../../../common/mmwdemo_tlv.h -> mmwdemo_tlv.h"
+        ]
+    }
+]

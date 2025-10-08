@@ -1,0 +1,29 @@
+[
+    {
+        "files": [
+            "+../mss/mss_main.c -> mss/mss_main.c",
+            "+../mss/mmw_mss.cfg -> mss/mmw_mss.cfg",
+            "+../mss/mmw_mss.h -> mss/mmw_mss.h",
+            "+../mss/mmw_cli.c -> mss/mmw_cli.c",
+            "+../mss/mmw_cli.h -> mss/mmw_cli.h",
+            "+../mss/mmw_lvds_stream.c -> mss/mmw_lvds_stream.c",
+            "+../mss/mmw_lvds_stream.h -> mss/mmw_lvds_stream.h",
+            "+../mss/osi_tirtos.c -> mss/osi_tirtos.c",
+            "+../common/cli_rfmonitor.c -> common/cli_rfmonitor.c",
+            "+../common/mmw_adcconfig.c -> common/mmw_adcconfig.c",
+            "+../common/mmw_adcconfig.h -> common/mmw_adcconfig.h",
+            "+../common/mmw_config.h -> common/mmw_config.h",
+            "+../common/mmw_output.h -> common/mmw_output.h",
+            "+../common/mmw_res.h -> common/mmw_res.h",
+            "+../common/mmw_rfparser.c -> common/mmw_rfparser.c",
+            "+../common/mmw_rfparser.h -> common/mmw_rfparser.h",
+            "+../common/mmwl_if.c -> common/mmwl_if.c",
+            "+../common/mmwl_if.h -> common/mmwl_if.h",
+            "+../common/rfmonitor.c -> common/rfmonitor.c",
+            "+../common/rfmonitor.h -> common/rfmonitor.h",
+            "+../common/rfmonitor_configdefaults.c -> common/rfmonitor_configdefaults.c",
+            "+../common/rfmonitor_internal.h -> common/rfmonitor_internal.h",
+            "+../mss/mmw_mss_linker.cmd -> mmw_mss_linker.cmd"
+        ]
+    }
+]

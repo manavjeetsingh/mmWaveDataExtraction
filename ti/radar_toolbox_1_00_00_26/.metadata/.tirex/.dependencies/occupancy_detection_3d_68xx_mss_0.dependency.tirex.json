@@ -1,0 +1,18 @@
+[
+    {
+        "files": [
+            "+mss/mss_main.c -> mss/mss_main.c",
+            "+mss/mmwLab_cli.c -> mss/mmwLab_cli.c",
+            "+mss/occupancy_detection_3d_mss.h -> mss/occupancy_detection_3d_mss.h",
+            "+mss/mmwLab_mss.cfg -> mss/mmwLab_mss.cfg",
+            "+mss/r4f_linker.cmd -> mss/r4f_linker.cmd",
+            "+mss/mmwLab_mss_linker.cmd -> mss/mmwLab_mss_linker.cmd",
+            "+common/mmwdemo_rfparser.c -> common/mmwdemo_rfparser.c",
+            "+common/mmwdemo_rfparser.h -> common/mmwdemo_rfparser.h",
+            "+common/mmwLab_config.h -> common/mmwLab_config.h",
+            "+common/mmwLab_hwres.h -> common/mmwLab_hwres.h",
+            "+common/mmwLab_output.h -> common/mmwLab_output.h",
+            "+common/CFAR/api/RADARDEMO_detectionCFAR.h -> common/src/dpu/capon3d_overhead/modules/detection/CFAR/api/RADARDEMO_detectionCFAR.h"
+        ]
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Level Sensing Overview",
+        "mainCategories": [["Applications"]],
+        "subCategories": ["Industrial", "Level Sensing"],
+        "location": "../../../applications/industrial/level_sensing/level_sensing_overview.html",
+        "resourceType": "file",
+        "resourceClass": ["document"]
+    }
+]

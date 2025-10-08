@@ -1,0 +1,28 @@
+[
+    {
+        "files": [
+            "+transport.c -> transport.c",
+            "+buffer_mgmt.c -> buffer_mgmt.c",
+            "+sbl.c -> sbl.c",
+            "+image_parser.c -> image_parser.c",
+            "+image_validity.c -> image_validity.c",
+            "+metaheader_parser.c -> metaheader_parser.c",
+            "+multicoreimage_parser.c -> multicoreimage_parser.c",
+            "+main.c -> main.c",
+            "+crc16.c -> crc16.c",
+            "+sbl.h -> sbl.h",
+            "+buffer_mgmt.h -> buffer_mgmt.h",
+            "+crc16.h -> crc16.h",
+            "+image_parser.h -> image_parser.h",
+            "+image_validity.h -> image_validity.h",
+            "+metaheader_parser.h -> metaheader_parser.h",
+            "+sbl_error.h -> sbl_error.h",
+            "+sbl_internal.h -> sbl_internal.h",
+            "+transport.h -> transport.h",
+            "+sbl.cfg -> sbl.cfg",
+            "+sbl_xwr18xx.c -> sbl_xwr18xx.c",
+            "+mss_can_sbl_linker.cmd -> mss_can_sbl_linker.cmd",
+            "+r4f_linker.cmd -> r4f_linker.cmd"
+        ]
+    }
+]

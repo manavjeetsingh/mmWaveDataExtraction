@@ -1,0 +1,4770 @@
+[
+    {
+        "name": "Automated Parking",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "ADAS"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/ADAS/automated_parking/docs/automated_parking_18xx_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Automated Parking 18xx Release Notes",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "ADAS",
+            "Automated Parking"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/ADAS/automated_parking/docs/automated_parking_18xx_release_notes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Automated Parking 18xx Users Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "ADAS",
+            "Automated Parking"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/ADAS/automated_parking/docs/automated_parking_18xx_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "18xx Parking DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "ADAS",
+            "Automated Parking"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/ADAS/automated_parking/src/1843/18xx_parking_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "18xx Parking MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "ADAS",
+            "Automated Parking"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/ADAS/automated_parking/src/1843/18xx_parking_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "High End Corner Radar",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "ADAS"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/ADAS/high_end_corner_radar/docs/High_End_Corner_Radar_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "High End Corner Radar Release Notes",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "ADAS",
+            "High End Corner Radar"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/ADAS/high_end_corner_radar/docs/High_End_Corner_Radar_release_notes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "High End Corner Radar Users Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "ADAS",
+            "High End Corner Radar"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/ADAS/high_end_corner_radar/docs/High_End_Corner_Radar_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Medium Range Radar",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "ADAS"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/ADAS/medium_range_radar/docs/Medium_Range_Radar_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Medium Range Radar Release Notes",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "ADAS",
+            "Medium Range Radar"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/ADAS/medium_range_radar/docs/Medium_Range_Radar_release_notes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Medium Range Radar Users Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "ADAS",
+            "Medium Range Radar"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/ADAS/medium_range_radar/docs/Medium_Range_Radar_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "MRR DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "ADAS",
+            "Medium Range Radar"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/ADAS/medium_range_radar/src/1843/mrr_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "MRR MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "ADAS",
+            "Medium Range Radar"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/ADAS/medium_range_radar/src/1843/mrr_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "MRR Beamsteering",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "ADAS"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/ADAS/mrr_beamsteering/docs/MRR_Beamsteering_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "MRR Beamsteering Release Notes",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "ADAS",
+            "MRR Beamsteering"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/ADAS/mrr_beamsteering/docs/MRR_Beamsteering_release_notes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "MRR Beamsteering Users Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "ADAS",
+            "MRR Beamsteering"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/ADAS/mrr_beamsteering/docs/MRR_Beamsteering_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "MRR DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "ADAS",
+            "MRR Beamsteering"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/ADAS/mrr_beamsteering/src/1843/mrr_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "MRR MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "ADAS",
+            "MRR Beamsteering"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/ADAS/mrr_beamsteering/src/1843/mrr_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Short Range Radar",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "ADAS"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/ADAS/short_range_radar/docs/Auto_Srr_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Auto SRR Release Notes",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "ADAS",
+            "Short Range Radar"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/ADAS/short_range_radar/docs/Auto_Srr_release_notes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Auto SRR Users Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "ADAS",
+            "Short Range Radar"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/ADAS/short_range_radar/docs/Auto_Srr_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "SRR 16xx DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "ADAS",
+            "Short Range Radar"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/ADAS/short_range_radar/src/1642/srr_16xx_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "SRR 16xx MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "ADAS",
+            "Short Range Radar"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/ADAS/short_range_radar/src/1642/srr_16xx_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Area Scanner",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Area_Scanner/docs/area_scanner_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Area Scanner Release Notes",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Area Scanner"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Area_Scanner/docs/area_scanner_release_notes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Area Scanner Users Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Area Scanner"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Area_Scanner/docs/area_scanner_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Images",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Area Scanner",
+            "Docs"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Area_Scanner/docs/images/as_overview_vid.webm",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Static Detection CLI Commands",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Area Scanner"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Area_Scanner/docs/static_detection_cli_commands.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Area Scanner 6843 DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Area Scanner"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Area_Scanner/src/6843/area_scanner_6843_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Area Scanner 6843 MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Area Scanner"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Area_Scanner/src/6843/area_scanner_6843_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Automated Doors And Gates",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Automated_Doors_And_Gates/docs/automated_doors_user_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Automated Doors Release Notes",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Automated Doors And Gates"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Automated_Doors_And_Gates/docs/automated_doors_release_notes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Automated Doors User Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Automated Doors And Gates"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Automated_Doors_And_Gates/docs/automated_doors_user_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Static Detection CLI Commands",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Automated Doors And Gates"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Automated_Doors_And_Gates/docs/static_detection_cli_commands.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Automated Doors 6843 DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Automated Doors And Gates"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Automated_Doors_And_Gates/src/6843/automated_doors_6843_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Automated Doors 6843 MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Automated Doors And Gates"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Automated_Doors_And_Gates/src/6843/automated_doors_6843_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Obstacle Detection",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Automotive Body Sensors"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Automotive_Body_Sensors/obstacle_detection/docs/obstacle_detection_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Obstacle Detection Release Notes",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Automotive Body Sensors",
+            "Obstacle Detection"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Automotive_Body_Sensors/obstacle_detection/docs/obstacle_detection_release_notes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Obstacle Detection Users Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Automotive Body Sensors",
+            "Obstacle Detection"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Automotive_Body_Sensors/obstacle_detection/docs/obstacle_detection_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Resource",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Automotive Body Sensors",
+            "Obstacle Detection",
+            "Docs"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Automotive_Body_Sensors/obstacle_detection/docs/resource/ods_overview_block.png",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Odsdemo 16xx DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Automotive Body Sensors",
+            "Obstacle Detection"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Automotive_Body_Sensors/obstacle_detection/src/1642/odsdemo_16xx_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Odsdemo 16xx MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Automotive Body Sensors",
+            "Obstacle Detection"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Automotive_Body_Sensors/obstacle_detection/src/1642/odsdemo_16xx_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Obstacle Detection AOP",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Automotive Body Sensors"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Automotive_Body_Sensors/obstacle_detection_aop/docs/obstacle_detection_aop_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Obstacle Detection AOP Release Notes",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Automotive Body Sensors",
+            "Obstacle Detection AOP"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Automotive_Body_Sensors/obstacle_detection_aop/docs/obstacle_detection_aop_release_notes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Obstacle Detection AOP Users Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Automotive Body Sensors",
+            "Obstacle Detection AOP"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Automotive_Body_Sensors/obstacle_detection_aop/docs/obstacle_detection_aop_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Resource",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Automotive Body Sensors",
+            "Obstacle Detection AOP",
+            "Docs"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Automotive_Body_Sensors/obstacle_detection_aop/docs/resource/ods_overview_block.png",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "ODS AOP 18xx DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Automotive Body Sensors",
+            "Obstacle Detection AOP"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Automotive_Body_Sensors/obstacle_detection_aop/src/1843/ods_aop_18xx_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "ODS AOP 18xx MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Automotive Body Sensors",
+            "Obstacle Detection AOP"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Automotive_Body_Sensors/obstacle_detection_aop/src/1843/ods_aop_18xx_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "CAN SBL",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/can_sbl/docs/CAN_SBL_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "CAN SBL Release Notes",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "CAN SBL"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/can_sbl/docs/CAN_SBL_release_notes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "CAN SBL Users Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "CAN SBL"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/can_sbl/docs/CAN_SBL_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "CAN SBL MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "CAN SBL"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/can_sbl/src/1843/can_sbl_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Diagnostic Monitor Ref",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/diagnostic_monitor_ref/docs/mmWave_diagnostic_monitoring_User_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "mmWave Diagnostic Monitoring Ref Release Notes",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Diagnostic Monitor Ref"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/diagnostic_monitor_ref/docs/mmWave_Diagnostic_Monitoring_ref_release_notes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "mmWave Diagnostic Monitoring User Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Diagnostic Monitor Ref"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/diagnostic_monitor_ref/docs/mmWave_diagnostic_monitoring_User_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Diag Mon Ref DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Diagnostic Monitor Ref",
+            "TI"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/diagnostic_monitor_ref/ti/demo/diag_mon_ref/diag_mon_ref_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Diag Mon Ref MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Diagnostic Monitor Ref",
+            "TI"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/diagnostic_monitor_ref/ti/demo/diag_mon_ref/diag_mon_ref_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "mmWave SBL",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Diagnostic Monitor Ref",
+            "TI"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/diagnostic_monitor_ref/ti/utils/diag_sbl/mmwave_sbl.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Doorbell",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Doorbell/docs/Doorbell_Demo_user_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Doorbell Demo User Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Doorbell"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Doorbell/docs/Doorbell_Demo_user_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Examples Overview",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/examples_overview.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Fundamentals",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Fundamentals/fundamentals_overview.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Fundamentals Overview",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Fundamentals"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Fundamentals/fundamentals_overview.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Hard Coded Config",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Fundamentals"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Fundamentals/Hard_Coded_Config/docs/hard_coded_config_user_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Hard Coded Config User Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Fundamentals",
+            "Hard Coded Config"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Fundamentals/Hard_Coded_Config/docs/hard_coded_config_user_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Hard Coded Config 68xx DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Fundamentals",
+            "Hard Coded Config"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Fundamentals/Hard_Coded_Config/src/6843/Hard_Coded_Config_68xx_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Hard Coded Config 68xx MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Fundamentals",
+            "Hard Coded Config"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Fundamentals/Hard_Coded_Config/src/6843/Hard_Coded_Config_68xx_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Soft Reset Using CLI",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Fundamentals"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Fundamentals/Soft_Reset_Using_CLI/docs/soft_reset_using_cli_user_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Soft Reset Using CLI User Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Fundamentals",
+            "Soft Reset Using CLI"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Fundamentals/Soft_Reset_Using_CLI/docs/soft_reset_using_cli_user_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Soft Reset Using CLI 6843",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Fundamentals",
+            "Soft Reset Using CLI"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Fundamentals/Soft_Reset_Using_CLI/src/6843/soft_reset_using_cli_6843.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Gesture Recognition",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Gesture_Recognition/gesture_overview.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Gesture Overview",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Gesture Recognition"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Gesture_Recognition/gesture_overview.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Gesture With Machine Learning",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Gesture Recognition"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Gesture_Recognition/Gesture_with_Machine_Learning/docs/Gesture_with_Machine_Learning_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Gesture With Machine Learning Release Notes",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Gesture Recognition",
+            "Gesture With Machine Learning"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Gesture_Recognition/Gesture_with_Machine_Learning/docs/Gesture_with_Machine_Learning_release_notes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Gesture With Machine Learning Users Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Gesture Recognition",
+            "Gesture With Machine Learning"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Gesture_Recognition/Gesture_with_Machine_Learning/docs/Gesture_with_Machine_Learning_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Gesture ML 6443 AOP",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Gesture Recognition",
+            "Gesture With Machine Learning"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Gesture_Recognition/Gesture_with_Machine_Learning/src/6443/gesture_ML_6443_AOP.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Gesture ML 6443 ODS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Gesture Recognition",
+            "Gesture With Machine Learning"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Gesture_Recognition/Gesture_with_Machine_Learning/src/6443/gesture_ML_6443_ODS.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "AWR6843 High Accuracy Localization Demo With Classification",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "InCabin Sensing"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/InCabin_Sensing/AWR6843_High_Accuracy_Localization_Demo_with_Classification/docs/AWR6843_High_Accuracy_VOD_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "AWR6843 High Accuracy VOD Users Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "InCabin Sensing",
+            "AWR6843 High Accuracy Localization Demo With Classification"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/InCabin_Sensing/AWR6843_High_Accuracy_Localization_Demo_with_Classification/docs/AWR6843_High_Accuracy_VOD_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "High Accuracy VOD Setup Guide V1.0",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "InCabin Sensing",
+            "AWR6843 High Accuracy Localization Demo With Classification"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/InCabin_Sensing/AWR6843_High_Accuracy_Localization_Demo_with_Classification/docs/High_Accuracy_VOD_Setup_Guide_v1.0.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Occupancy Detection 3D 68xx DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "InCabin Sensing",
+            "AWR6843 High Accuracy Localization Demo With Classification"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/InCabin_Sensing/AWR6843_High_Accuracy_Localization_Demo_with_Classification/src/68xx/occupancy_detection_3d_68xx_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Occupancy Detection 3D 68xx MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "InCabin Sensing",
+            "AWR6843 High Accuracy Localization Demo With Classification"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/InCabin_Sensing/AWR6843_High_Accuracy_Localization_Demo_with_Classification/src/68xx/occupancy_detection_3d_68xx_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "AWRL6432 Intruder Detection Demo",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "InCabin Sensing"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/InCabin_Sensing/AWRL6432_Intruder_Detection_Demo/docs/AWRL6432_Intruder_Detection_Demo_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "AWRL6432 Intruder Detection Demo Users Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "InCabin Sensing",
+            "AWRL6432 Intruder Detection Demo"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/InCabin_Sensing/AWRL6432_Intruder_Detection_Demo/docs/AWRL6432_Intruder_Detection_Demo_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "AWRL6432 Intruder Detection Testing",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "InCabin Sensing",
+            "AWRL6432 Intruder Detection Demo"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/InCabin_Sensing/AWRL6432_Intruder_Detection_Demo/docs/AWRL6432_Intruder_Detection_Testing.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "AWRL6432 Life Presence Detection Demo",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "InCabin Sensing"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/InCabin_Sensing/AWRL6432_Life_Presence_Detection_Demo/docs/AWRL6432_Life_Presence_Detection_Demo_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "AWRL6432 2 Row CPD Testing",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "InCabin Sensing",
+            "AWRL6432 Life Presence Detection Demo"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/InCabin_Sensing/AWRL6432_Life_Presence_Detection_Demo/docs/AWRL6432_2_Row_CPD_Testing.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "AWRL6432 Life Presence Detection Demo Users Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "InCabin Sensing",
+            "AWRL6432 Life Presence Detection Demo"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/InCabin_Sensing/AWRL6432_Life_Presence_Detection_Demo/docs/AWRL6432_Life_Presence_Detection_Demo_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Indoor Occupancy Monitoring",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Indoor_Occupancy_Monitoring/docs/Indoor_Occupancy_Monitoring_Users_Guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Indoor Occupancy Monitoring Users Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Indoor Occupancy Monitoring"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Indoor_Occupancy_Monitoring/docs/Indoor_Occupancy_Monitoring_Users_Guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Interference Lab Developer's Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Interference Mitigation"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/interference_mitigation/docs/Interference_Lab_Developer's_Guide.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Interference Lab Getting Started Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Interference Mitigation"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/interference_mitigation/docs/Interference_Lab_Getting_Started_Guide.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Interference Lab Release Notes",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Interference Mitigation"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/interference_mitigation/docs/Interference_Lab_Release_Notes.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "xWR16xx Intf Demo DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Interference Mitigation",
+            "Victim"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/interference_mitigation/victim/xwr16xx/mmw/xwr16xx_intf_demo_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "xWR16xx Intf Demo MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Interference Mitigation",
+            "Victim"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/interference_mitigation/victim/xwr16xx/mmw/xwr16xx_intf_demo_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "xWR18xx Intf Demo DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Interference Mitigation",
+            "Victim"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/interference_mitigation/victim/xwr18xx/mmw/xwr18xx_intf_demo_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "xWR18xx Intf Demo MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Interference Mitigation",
+            "Victim"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/interference_mitigation/victim/xwr18xx/mmw/xwr18xx_intf_demo_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Level Sensing",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Level_Sensing/docs/high_accuracy_user_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "High Accuracy Release Notes",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Level Sensing"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Level_Sensing/docs/high_accuracy_release_notes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "High Accuracy User Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Level Sensing"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Level_Sensing/docs/high_accuracy_user_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "High Accuracy 14xx MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Level Sensing"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Level_Sensing/src/14xx/high_accuracy_14xx_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "High Accuracy 16xx DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Level Sensing"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Level_Sensing/src/16xx/high_accuracy_16xx_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "High Accuracy 16xx MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Level Sensing"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Level_Sensing/src/16xx/high_accuracy_16xx_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "High Accuracy 68xx DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Level Sensing"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Level_Sensing/src/68xx/high_accuracy_68xx_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "High Accuracy 68xx MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Level Sensing"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Level_Sensing/src/68xx/high_accuracy_68xx_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Long Range People Detection",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Long_Range_People_Detection/docs/long_range_people_detection_user_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Beamforming In Lrpd",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Long Range People Detection"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Long_Range_People_Detection/docs/Beamforming_in_LRPD.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Images",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Long Range People Detection",
+            "Docs"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Long_Range_People_Detection/docs/images/overview.mp4",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Long Range People Detection Release Notes",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Long Range People Detection"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Long_Range_People_Detection/docs/long_range_people_detection_release_notes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Long Range People Detection User Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Long Range People Detection"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Long_Range_People_Detection/docs/long_range_people_detection_user_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "People Counting Customization Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Long Range People Detection"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Long_Range_People_Detection/docs/people_counting_customization_guide.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Long Range People Det 6443",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Long Range People Detection"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Long_Range_People_Detection/src/6443/long_range_people_det_6443.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Long Range People Det 6843 DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Long Range People Detection"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Long_Range_People_Detection/src/6843/long_range_people_det_6843_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Long Range People Det 6843 MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Long Range People Detection"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Long_Range_People_Detection/src/6843/long_range_people_det_6843_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Medical",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Medical/medical_overview.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Medical Overview",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Medical"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Medical/medical_overview.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Vital Signs With People Tracking",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Medical"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Medical/Vital_Signs_With_People_Tracking/docs/vital_signs_with_people_tracking_user_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Vital Signs With People Tracking Release Notes",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Medical",
+            "Vital Signs With People Tracking"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Medical/Vital_Signs_With_People_Tracking/docs/vital_signs_with_people_tracking_release_notes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Vital Signs With People Tracking User Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Medical",
+            "Vital Signs With People Tracking"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Medical/Vital_Signs_With_People_Tracking/docs/vital_signs_with_people_tracking_user_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Nonos OOB 16xx",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/nonos_oob_16xx/docs/AWR1642-OOB-Non-OS_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Awr1642-oob-non-os Release Notes",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Nonos OOB 16xx"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/nonos_oob_16xx/docs/AWR1642-OOB-Non-OS_release_notes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Awr1642-oob-non-os Users Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Nonos OOB 16xx"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/nonos_oob_16xx/docs/AWR1642-OOB-Non-OS_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Mmwnonos DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Nonos OOB 16xx"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/nonos_oob_16xx/src/1642/mmwNonOS_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Mmwnonos MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Nonos OOB 16xx"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/nonos_oob_16xx/src/1642/mmwNonOS_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Object Data Over CAN",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/object_data_over_can/docs/Object_Data_Over_CAN_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Object Data Over CAN Release Notes",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Object Data Over CAN"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/object_data_over_can/docs/Object_Data_Over_CAN_release_notes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Object Data Over CAN Users Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Object Data Over CAN"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/object_data_over_can/docs/Object_Data_Over_CAN_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "ODOC DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Object Data Over CAN"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/object_data_over_can/src/dss/odoc_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "ODOC MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Object Data Over CAN"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/object_data_over_can/src/mss/odoc_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Onlooker Detection",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Onlooker_Detection/docs/Onlooker_Detection_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Onlooker Detection Users Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Onlooker Detection"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Onlooker_Detection/docs/Onlooker_Detection_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Out Of Box Demo",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Out_Of_Box_Demo/docs/Out_Of_Box_Demo_User_Guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Out Of Box Demo User Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Out Of Box Demo"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Out_Of_Box_Demo/docs/Out_Of_Box_Demo_User_Guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "AWR294x MMW Demo Dssddm",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Out Of Box Demo"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Out_Of_Box_Demo/src/awr294x/awr294x_mmw_demo_dssDDM.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "AWR294x MMW Demo Mssddm",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Out Of Box Demo"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Out_Of_Box_Demo/src/awr294x/awr294x_mmw_demo_mssDDM.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Out Of Box 1443",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Out Of Box Demo"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Out_Of_Box_Demo/src/xwr1443/out_of_box_1443.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.outofbox"
+        ]
+    },
+    {
+        "name": "Out Of Box 1642 DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Out Of Box Demo"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Out_Of_Box_Demo/src/xwr1642/out_of_box_1642_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.outofbox"
+        ]
+    },
+    {
+        "name": "Out Of Box 1642 MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Out Of Box Demo"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Out_Of_Box_Demo/src/xwr1642/out_of_box_1642_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.outofbox"
+        ]
+    },
+    {
+        "name": "Out Of Box 1843 DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Out Of Box Demo"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Out_Of_Box_Demo/src/xwr1843/out_of_box_1843_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.outofbox"
+        ]
+    },
+    {
+        "name": "Out Of Box 1843 MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Out Of Box Demo"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Out_Of_Box_Demo/src/xwr1843/out_of_box_1843_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.outofbox"
+        ]
+    },
+    {
+        "name": "Out Of Box 6443",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Out Of Box Demo"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Out_Of_Box_Demo/src/xwr6443/out_of_box_6443.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.outofbox"
+        ]
+    },
+    {
+        "name": "Out Of Box 6843 AOP",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Out Of Box Demo"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Out_Of_Box_Demo/src/xwr6843AOP/out_of_box_6843_aop.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.outofbox"
+        ]
+    },
+    {
+        "name": "Out Of Box 6843 ISK DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Out Of Box Demo"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Out_Of_Box_Demo/src/xwr6843ISK/out_of_box_6843_isk_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.outofbox"
+        ]
+    },
+    {
+        "name": "Out Of Box 6843 ISK MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Out Of Box Demo"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Out_Of_Box_Demo/src/xwr6843ISK/out_of_box_6843_isk_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.outofbox"
+        ]
+    },
+    {
+        "name": "Out Of Box 6843 ODS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Out Of Box Demo"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Out_Of_Box_Demo/src/xwr6843ODS/out_of_box_6843_ods.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.outofbox"
+        ]
+    },
+    {
+        "name": "Parking Garage Sensor",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Parking_Garage_Sensor/docs/parking_garage_sensor_68xx_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Images",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Parking Garage Sensor",
+            "Docs"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Parking_Garage_Sensor/docs/images/processingOverview.png",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Parking Garage Sensor 68xx Release Notes",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Parking Garage Sensor"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Parking_Garage_Sensor/docs/parking_garage_sensor_68xx_release_notes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Parking Garage Sensor 68xx Users Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Parking Garage Sensor"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Parking_Garage_Sensor/docs/parking_garage_sensor_68xx_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Static Detection CLI Commands",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Parking Garage Sensor"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Parking_Garage_Sensor/docs/static_detection_cli_commands.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Parking Garage Sensor 6843 DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Parking Garage Sensor"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Parking_Garage_Sensor/src/6843/parking_garage_sensor_6843_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Parking Garage Sensor 6843 MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Parking Garage Sensor"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Parking_Garage_Sensor/src/6843/parking_garage_sensor_6843_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "People Counting",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/People_Counting/people_counting_overview.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "3D People Counting",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "People Counting"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/People_Counting/3D_People_Counting/docs/3d_people_counting_user_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "3D People Counting Release Notes",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "People Counting",
+            "3D People Counting"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/People_Counting/3D_People_Counting/docs/3d_people_counting_release_notes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "3D People Counting User Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "People Counting",
+            "3D People Counting"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/People_Counting/3D_People_Counting/docs/3d_people_counting_user_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "3D People Count 6843 DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "People Counting",
+            "3D People Counting"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/People_Counting/3D_People_Counting/src/6843/3D_people_count_6843_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "3D People Count 6843 MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "People Counting",
+            "3D People Counting"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/People_Counting/3D_People_Counting/src/6843/3D_people_count_6843_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "3D People Counting Demo Implementation Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "People Counting"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/People_Counting/docs/3D_people_counting_demo_implementation_guide.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "3D People Counting Detection Layer Tuning Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "People Counting"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/People_Counting/docs/3D_people_counting_detection_layer_tuning_guide.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "3D People Counting Tracker Layer Tuning Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "People Counting"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/People_Counting/docs/3D_people_counting_tracker_layer_tuning_guide.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Images",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "People Counting",
+            "Docs"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/People_Counting/docs/images/pplcount_overview_block2.png",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Tracking Radar Targets With Multiple Reflection Points",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "People Counting"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/People_Counting/docs/Tracking_radar_targets_with_multiple_reflection_points.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Overhead 3D People Counting",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "People Counting"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/People_Counting/overhead_3d_people_counting/docs/overhead_3d_people_counting_user_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Overhead 3D People Counting Release Notes",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "People Counting",
+            "Overhead 3D People Counting"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/People_Counting/overhead_3d_people_counting/docs/overhead_3d_people_counting_release_notes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Overhead 3D People Counting User Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "People Counting",
+            "Overhead 3D People Counting"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/People_Counting/overhead_3d_people_counting/docs/overhead_3d_people_counting_user_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Overhead 3D People Count 6843 DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "People Counting",
+            "Overhead 3D People Counting"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/People_Counting/overhead_3d_people_counting/src/6843/overhead_3d_people_count_6843_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Overhead 3D People Count 6843 MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "People Counting",
+            "Overhead 3D People Counting"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/People_Counting/overhead_3d_people_counting/src/6843/overhead_3d_people_count_6843_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "People Counting Overview",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "People Counting"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/People_Counting/people_counting_overview.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "WiFi Data Transmission",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "People Counting"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/People_Counting/WiFi_Data_Transmission/docs/3d_people_counting_with_wifi_user_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "3D People Counting With WiFi User Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "People Counting",
+            "WiFi Data Transmission"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/People_Counting/WiFi_Data_Transmission/docs/3d_people_counting_with_wifi_user_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Robotics",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Robotics/robotics_overview.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "ROS Setup For Autonomous mmWave",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Robotics",
+            "Autonomous Robotics ROS",
+            "Docs",
+            "Common"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Robotics/autonomous_robotics_ros/docs/common/ROS_Setup_for_Autonomous_mmWave.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Safety Bubble With ROS For mmWave User Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Robotics",
+            "Autonomous Robotics ROS",
+            "Docs",
+            "Safety Bubble"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Robotics/autonomous_robotics_ros/docs/safety_bubble/Safety_Bubble_with_ROS_for_mmWave_user_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Autonomous Robotics With ROS For mmWave User Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Robotics",
+            "Autonomous Robotics ROS",
+            "Docs",
+            "Sense And Avoid"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Robotics/autonomous_robotics_ros/docs/sense_and_avoid/Autonomous_Robotics_with_ROS_for_mmWave_user_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Mobile Tracker",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Robotics"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Robotics/Mobile_Tracker/docs/Mobile_Tracker_User_Guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Mobile Tracker Release Notes",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Robotics",
+            "Mobile Tracker"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Robotics/Mobile_Tracker/docs/Mobile_Tracker_Release_Notes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Mobile Tracker User Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Robotics",
+            "Mobile Tracker"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Robotics/Mobile_Tracker/docs/Mobile_Tracker_User_Guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Mobile Tracker 6843 DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Robotics",
+            "Mobile Tracker"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Robotics/Mobile_Tracker/src/6843/Mobile_Tracker_6843_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Mobile Tracker 6843 MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Robotics",
+            "Mobile Tracker"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Robotics/Mobile_Tracker/src/6843/Mobile_Tracker_6843_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Robotics Overview",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Robotics"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Robotics/robotics_overview.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "ROS Driver",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Robotics"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Robotics/ros_driver/docs/TI_mmWave_ROS_Driver_Users_Guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "TI mmWave ROS Driver Users Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Robotics",
+            "ROS Driver"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Robotics/ros_driver/docs/TI_mmWave_ROS_Driver_Users_Guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Small Obstacle Detection",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Robotics"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Robotics/Small_Obstacle_Detection/docs/small_obstacle_detection_user_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Small Obstacle Detection Release Notes",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Robotics",
+            "Small Obstacle Detection"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Robotics/Small_Obstacle_Detection/docs/small_obstacle_detection_release_notes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Small Obstacle Detection User Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Robotics",
+            "Small Obstacle Detection"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Robotics/Small_Obstacle_Detection/docs/small_obstacle_detection_user_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Small Obstacle Detection 68xx DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Robotics",
+            "Small Obstacle Detection"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Robotics/Small_Obstacle_Detection/src/68xx/small_obstacle_detection_68xx_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Small Obstacle Detection 68xx MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Robotics",
+            "Small Obstacle Detection"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Robotics/Small_Obstacle_Detection/src/68xx/small_obstacle_detection_68xx_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Traffic Monitoring",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Traffic_Monitoring/docs/traffic_monitoring_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Images",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Traffic Monitoring",
+            "Docs"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../source/ti/examples/Traffic_Monitoring/docs/images/tm_overview_vid.webm",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Traffic Monitoring Release Notes",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Traffic Monitoring"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Traffic_Monitoring/docs/traffic_monitoring_release_notes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Traffic Monitoring Users Guide",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Traffic Monitoring"
+        ],
+        "resourceType": "file",
+        "location": "../../../source/ti/examples/Traffic_Monitoring/docs/traffic_monitoring_users_guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Traffic Monitoring 1843 DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Traffic Monitoring"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Traffic_Monitoring/src/1843/traffic_monitoring_1843_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Traffic Monitoring 1843 MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Traffic Monitoring"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Traffic_Monitoring/src/1843/traffic_monitoring_1843_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Traffic Monitoring 6843 DSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Traffic Monitoring"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Traffic_Monitoring/src/6843/traffic_monitoring_6843_dss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Traffic Monitoring 6843 MSS",
+        "mainCategories": [
+            [
+                "Example Projects"
+            ]
+        ],
+        "subCategories": [
+            "Traffic Monitoring"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../source/ti/examples/Traffic_Monitoring/src/6843/traffic_monitoring_6843_mss.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    }
+]

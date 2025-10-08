@@ -1,0 +1,20 @@
+[
+    {
+        "files": [
+            "+dss/dss_main.c -> dss/dss_main.c",
+            "+dss/mmwLab_dss.h -> dss/mmwLab_dss.h",
+            "+dss/c674x_linker.cmd -> dss/c674x_linker.cmd",
+            "+dss/mmwLab_dss_linker.cmd -> dss/mmwLab_dss_linker.cmd",
+            "+dss/mmwLab_dss.cfg -> dss/mmwLab_dss.cfg",
+            "+common/mmwLab_hwres.h -> common/mmwLab_hwres.h",
+            "+common/mmwLab_output.h -> common/mmwLab_output.h",
+            "+common/CFAR/api/RADARDEMO_detectionCFAR.h -> common/src/dpu/capon3d_overhead/modules/detection/CFAR/api/RADARDEMO_detectionCFAR.h",
+            "+common/CFAR/src/RADARDEMO_detectionCFAR.c -> common/src/dpu/capon3d_overhead/modules/detection/CFAR/src/RADARDEMO_detectionCFAR.c",
+            "+common/CFAR/src/RADARDEMO_detectionCFAR_priv.c -> common/src/dpu/capon3d_overhead/modules/detection/CFAR/src/RADARDEMO_detectionCFAR_priv.c",
+            "+common/CFAR/src/RADARDEMO_detectionCFAR_priv.h -> common/src/dpu/capon3d_overhead/modules/detection/CFAR/src/RADARDEMO_detectionCFAR_priv.h",
+            "+common/CFAR/src/relativeThrTab.c -> common/src/dpu/capon3d_overhead/modules/detection/CFAR/src/relativeThrTab.c",
+            "+common/CFAR/src/cfarRatio.c -> common/src/dpu/capon3d_overhead/modules/detection/CFAR/src/cfarRatio.c",
+            "+common/CFAR/src/cfarRatio.h -> common/src/dpu/capon3d_overhead/modules/detection/CFAR/src/cfarRatio.h"
+        ]
+    }
+]

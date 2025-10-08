@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D96FAEC9-A917-463E-BCD9-31451DA8D1B5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>mmwavelink_example</RootNamespace>
+    <ProjectName>mmwave_studio_cli</ProjectName>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+    <UseOfAtl>Static</UseOfAtl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <ReferencePath>$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>SERIAL_DEBUG_PURPOSE;INTERNAL_JSON_PARSER;WIN32;_DEBUG;_CONSOLE;_LIB;FIRMWARE_DOWNLOAD;_CRT_SECURE_NO_WARNINGS;SECOND_GEN_DEVICE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)\dca_comm;$(SolutionDir);$(SolutionDir)\post_proc;$(SolutionDir)\serial_comm;$(SolutionDir)\Json_utils\;$(MMWAVE_DFP)\;$(SolutionDir)..\mmw_post_proc\dll\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>DebugFastLink</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Debug\;$(SolutionDir)\dca_comm\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Ws2_32.lib;$(SolutionDir)\dca_comm\RF_API.lib;$(SolutionDir)serial_comm\mmwl_ftdi\mmwl_port_ftdi.lib;$(MMWAVE_DFP)\ti\control\mmwavelink\vs\debug\mmwavelink.lib;MSVCRT.LIB;%(AdditionalDependencies)</AdditionalDependencies>
+      <HeapCommitSize>
+      </HeapCommitSize>
+      <StackCommitSize>
+      </StackCommitSize>
+      <HeapReserveSize>500000000</HeapReserveSize>
+      <StackReserveSize>2000000</StackReserveSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>SERIAL_DEBUG_PURPOSE;INTERNAL_JSON_PARSER;WIN32;_DEBUG;_CONSOLE;_LIB;FIRMWARE_DOWNLOAD;_CRT_SECURE_NO_WARNINGS;SECOND_GEN_DEVICE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)\dca_comm;$(SolutionDir);$(SolutionDir)\post_proc;$(SolutionDir)\serial_comm;$(SolutionDir)\Json_utils\;$(MMWAVE_DFP)\;$(SolutionDir)..\mmw_post_proc\dll\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>StackFrameRuntimeCheck</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Debug\;$(SolutionDir)\dca_comm\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Ws2_32.lib;$(SolutionDir)\dca_comm\RF_API.lib;$(MMWAVE_DFP)\ti\example\platform\mmwl_ftdi\mmwl_port_ftdi.lib;$(MMWAVE_DFP)\ti\control\mmwavelink\vs\debug\mmwavelink.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>MSVCRT.LIB;%(AdditionalDependencies)</AdditionalDependencies>
+      <HeapReserveSize>500000</HeapReserveSize>
+      <StackReserveSize>200000</StackReserveSize>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="dca_comm\dca_control.c" />
+    <ClCompile Include="Json_Utils\cJSON.c" />
+    <ClCompile Include="Json_Utils\cJSON_Utils.c" />
+    <ClCompile Include="mmw_config.c" />
+    <ClCompile Include="mmw_main.c" />
+    <ClCompile Include="serial_comm\crc_compute.c" />
+    <ClCompile Include="serial_comm\mmwave_comm.c" />
+    <ClCompile Include="serial_comm\mmwave_json_parser.c" />
+    <ClCompile Include="serial_comm\mmw_spi_comm.c" />
+    <ClCompile Include="serial_comm\report_to_json.c" />
+    <ClCompile Include="serial_comm\rls_osi.c" />
+    <ClCompile Include="serial_comm\serial_comm.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mmwaveconfig.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dca_comm\dca_types.h" />
+    <ClInclude Include="dca_comm\rf_api.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

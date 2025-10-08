@@ -1,0 +1,422 @@
+[
+    {
+        "name": "Radar Memory Compression Model IWR6843 Users Guide",
+        "mainCategories": [
+            [
+                "Tools"
+            ]
+        ],
+        "subCategories": [
+            "Memory Compression"
+        ],
+        "resourceType": "file",
+        "location": "../../../tools/memory_compression/radar_memory_Compression_Model_iwr6843_users_guide.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Remote Stream Tool",
+        "mainCategories": [
+            [
+                "Tools"
+            ]
+        ],
+        "subCategories": [
+            "Remote Access"
+        ],
+        "resourceType": "file",
+        "location": "../../../tools/remote_access/docs/Remote_Stream_tool.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Mmwave-studio-cli-release-notes",
+        "mainCategories": [
+            [
+                "Tools"
+            ]
+        ],
+        "subCategories": [
+            "Studio CLI"
+        ],
+        "resourceType": "file",
+        "location": "../../../tools/studio_cli/docs/mmwave-studio-CLI-release-notes.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Mmwavestudio CLI Getting Started Guide",
+        "mainCategories": [
+            [
+                "Tools"
+            ]
+        ],
+        "subCategories": [
+            "Studio CLI"
+        ],
+        "resourceType": "file",
+        "location": "../../../tools/studio_cli/docs/mmWaveStudio_CLI_Getting_Started_Guide.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "mmWave Studio CLI Developer's Guide",
+        "mainCategories": [
+            [
+                "Tools"
+            ]
+        ],
+        "subCategories": [
+            "Studio CLI"
+        ],
+        "resourceType": "file",
+        "location": "../../../tools/studio_cli/docs/mmwave_studio_cli_developer's_guide.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Studio CLI xWR14xx",
+        "mainCategories": [
+            [
+                "Tools"
+            ]
+        ],
+        "subCategories": [
+            "Studio CLI"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../tools/studio_cli/src/1443/studio_cli_xwr14xx.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Studio CLI xWR16xx",
+        "mainCategories": [
+            [
+                "Tools"
+            ]
+        ],
+        "subCategories": [
+            "Studio CLI"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../tools/studio_cli/src/1642/studio_cli_xwr16xx.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Studio CLI xWR18xx",
+        "mainCategories": [
+            [
+                "Tools"
+            ]
+        ],
+        "subCategories": [
+            "Studio CLI"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../tools/studio_cli/src/1843/studio_cli_xwr18xx.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Studio CLI xWR68xx",
+        "mainCategories": [
+            [
+                "Tools"
+            ]
+        ],
+        "subCategories": [
+            "Studio CLI"
+        ],
+        "resourceType": "project.ccs",
+        "location": "../../../tools/studio_cli/src/6843/studio_cli_xwr68xx.projectspec",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "compiler": [
+            "ccs"
+        ],
+        "resourceClass": [
+            "example"
+        ],
+        "resourceSubClass": [
+            "example.general"
+        ]
+    },
+    {
+        "name": "Tools Overview",
+        "mainCategories": [
+            [
+                "Tools"
+            ]
+        ],
+        "resourceType": "file",
+        "location": "../../../tools/tools_overview.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Visualizers",
+        "mainCategories": [
+            [
+                "Tools"
+            ]
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../tools/visualizers/visualizers_overview.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "Industrial Visualizer",
+        "mainCategories": [
+            [
+                "Tools"
+            ]
+        ],
+        "subCategories": [
+            "Visualizers"
+        ],
+        "resourceType": "categoryInfo",
+        "resourceClass": [
+            "document"
+        ],
+        "location": "../../../tools/visualizers/Industrial_Visualizer/docs/mmWave_Industrial_Visualizer_User_Guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ]
+    },
+    {
+        "name": "mmWave Industrial Visualizer Release Notes",
+        "mainCategories": [
+            [
+                "Tools"
+            ]
+        ],
+        "subCategories": [
+            "Visualizers",
+            "Industrial Visualizer"
+        ],
+        "resourceType": "file",
+        "location": "../../../tools/visualizers/Industrial_Visualizer/docs/mmWave_Industrial_Visualizer_Release_Notes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "mmWave Industrial Visualizer User Guide",
+        "mainCategories": [
+            [
+                "Tools"
+            ]
+        ],
+        "subCategories": [
+            "Visualizers",
+            "Industrial Visualizer"
+        ],
+        "resourceType": "file",
+        "location": "../../../tools/visualizers/Industrial_Visualizer/docs/mmWave_Industrial_Visualizer_User_Guide.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Low Power Visualizer Release Notes",
+        "mainCategories": [
+            [
+                "Tools"
+            ]
+        ],
+        "subCategories": [
+            "Visualizers",
+            "Low Power Visualizer"
+        ],
+        "resourceType": "file",
+        "location": "../../../tools/visualizers/Low_Power_Visualizer/docs/Low_Power_Visualizer_Release_Notes.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "mmWave CAN Visualizer User Guide",
+        "mainCategories": [
+            [
+                "Tools"
+            ]
+        ],
+        "subCategories": [
+            "Visualizers",
+            "mmWave CAN Visualizer"
+        ],
+        "resourceType": "file",
+        "location": "../../../tools/visualizers/mmwave_can_visualizer/MMWAVE_CAN_VISUALIZER_User_Guide.pdf",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "GUI Setup Readme",
+        "mainCategories": [
+            [
+                "Tools"
+            ]
+        ],
+        "subCategories": [
+            "Visualizers",
+            "Parking Garage Visualizer",
+            "Parkingsetup"
+        ],
+        "resourceType": "file",
+        "location": "../../../tools/visualizers/Parking_Garage_Visualizer/parkingSetup/GUI_Setup_Readme.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    },
+    {
+        "name": "Visualizers Overview",
+        "mainCategories": [
+            [
+                "Tools"
+            ]
+        ],
+        "subCategories": [
+            "Visualizers"
+        ],
+        "resourceType": "file",
+        "location": "../../../tools/visualizers/visualizers_overview.html",
+        "devices": [
+            "$(mmw_devices)"
+        ],
+        "devtools": [
+            "$(mmw_devtools)"
+        ],
+        "resourceClass": [
+            "document"
+        ]
+    }
+]

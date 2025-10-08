@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Personal Electronics Overview",
+        "mainCategories": [["Applications"]],
+        "subCategories": ["Personal Electronics"],
+        "location": "../../../applications/personal_electronics/personal_electronics_overview.html",
+        "resourceType": "file",
+        "resourceClass": ["document"]
+    }
+]

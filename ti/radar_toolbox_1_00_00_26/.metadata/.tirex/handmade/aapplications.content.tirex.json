@@ -1,0 +1,91 @@
+[
+    {
+        "name": "Automotive",
+        "mainCategories": [["Applications"]],
+        "location": "../../../applications/automotive/automotive_overview.html",
+        "resourceType": "categoryInfo",
+        "resourceClass": ["document"]
+    },
+    {
+        "name": "Industrial",
+        "mainCategories": [["Applications"]],
+        "location": "../../../applications/industrial/industrial_overview.html",
+        "resourceType": "categoryInfo",
+        "resourceClass": ["document"]
+    },
+    {
+        "name": "Personal Electronics",
+        "mainCategories": [["Applications"]],
+        "location": "../../../applications/personal_electronics/personal_electronics_overview.html",
+        "resourceType": "categoryInfo",
+        "resourceClass": ["document"]
+    },
+
+
+    {
+        "name": "Advanced Driver Assistance Systems",
+        "mainCategories": [["Applications"]],
+        "subCategories": ["Automotive"],
+        "location": "../../../applications/automotive/advanced_driver_assistance_systems/corner_radar_overview.html",
+        "resourceType": "categoryInfo",
+        "resourceClass": ["document"]
+    },
+    {
+        "name": "Body Electronics",
+        "mainCategories": [["Applications"]],
+        "subCategories": ["Automotive"],
+        "location": "../../../applications/automotive/body_electronics/Near-Field_sensing_overview.html",
+        "resourceType": "categoryInfo",
+        "resourceClass": ["document"]
+    },
+    {
+        "name": "In-Cabin Sensing",
+        "mainCategories": [["Applications"]],
+        "subCategories": ["Automotive"],
+        "location": "../../../applications/automotive/in-cabin_sensing/in-cabin_sensing_overview.html",
+        "resourceType": "categoryInfo",
+        "resourceClass": ["document"]
+    },
+
+
+    {
+        "name": "Appliances",
+        "mainCategories": [["Applications"]],
+        "subCategories": ["Industrial"],
+        "location": "../../../applications/industrial/appliances/appliances_overview.html",
+        "resourceType": "categoryInfo",
+        "resourceClass": ["document"]
+    },
+    {
+        "name": "Building Automation and Lighting",
+        "mainCategories": [["Applications"]],
+        "subCategories": ["Industrial"],
+        "location": "../../../applications/industrial/building_automation_and_lighting/building_automation_and_lighting_overview.html",
+        "resourceType": "categoryInfo",
+        "resourceClass": ["document"]
+    },
+    {
+        "name": "Level Sensing",
+        "mainCategories": [["Applications"]],
+        "subCategories": ["Industrial"],
+        "location": "../../../applications/industrial/level_sensing/level_sensing_overview.html",
+        "resourceType": "categoryInfo",
+        "resourceClass": ["document"]
+    },
+    {
+        "name": "Medical",
+        "mainCategories": [["Applications"]],
+        "subCategories": ["Industrial"],
+        "location": "../../../applications/industrial/medical/medical_overview.html",
+        "resourceType": "categoryInfo",
+        "resourceClass": ["document"]
+    },
+    {
+        "name": "Robotics",
+        "mainCategories": [["Applications"]],
+        "subCategories": ["Industrial"],
+        "location": "../../../applications/industrial/robotics/robotics_overview.html",
+        "resourceType": "categoryInfo",
+        "resourceClass": ["document"]
+    }
+]

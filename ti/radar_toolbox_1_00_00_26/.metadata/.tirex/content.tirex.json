@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Front Page",
+        "mainCategories": [],
+        "resourceType": "file",
+        "location": "../frontPage.html",
+        "resourceClass": ["document"]
+    },
+    
+    {
+        "name": "Getting Started with xWRL6432",
+        "mainCategories": [],
+        "resourceType": "file",
+        "location": "../Getting_Started_With_xWRL6432.html",
+        "resourceClass": ["document"]
+    },
+
+    {
+		"name": "Applications",
+		"mainCategories": [],
+		"location": "../../applications/applications_overview.html",
+		"resourceType": "categoryInfo",
+		"resourceClass": ["document"]
+  	},
+
+	{
+		"name": "Documentation",
+		"mainCategories": [],
+		"location": "../../docs/readme.html",
+		"resourceType": "categoryInfo",
+		"resourceClass": ["document"]
+  	},
+
+	{
+		"name": "Tools",
+		"mainCategories": [],
+		"location": "../../tools/tools_overview.html",
+		"resourceType": "categoryInfo",
+		"resourceClass": ["document"]
+  	}
+]

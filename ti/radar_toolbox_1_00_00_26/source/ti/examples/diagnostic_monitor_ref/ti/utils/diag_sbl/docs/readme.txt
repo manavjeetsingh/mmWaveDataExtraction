@@ -1,0 +1,1 @@
+Please refer mmWave SDK for original SBL documentation.

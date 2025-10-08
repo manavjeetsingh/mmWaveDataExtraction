@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Appliances Overview",
+        "mainCategories": [["Applications"]],
+        "subCategories": ["Industrial", "Appliances"],
+        "location": "../../../applications/industrial/appliances/appliances_overview.html",
+        "resourceType": "file",
+        "resourceClass": ["document"]
+    }
+]

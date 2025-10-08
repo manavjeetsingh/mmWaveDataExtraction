@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Medical Overview",
+        "mainCategories": [["Applications"]],
+        "subCategories": ["Industrial", "Medical"],
+        "location": "../../../applications/industrial/medical/medical_overview.html",
+        "resourceType": "file",
+        "resourceClass": ["document"]
+    }
+]

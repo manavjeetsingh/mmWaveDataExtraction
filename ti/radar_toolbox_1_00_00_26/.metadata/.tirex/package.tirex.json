@@ -1,0 +1,56 @@
+[
+    {
+        "metadataVersion": "3.1.0",
+        "id": "radar_toolbox",
+        "name": "Radar Toolbox",
+        "version": "1.00.00.26",
+        "type": "software",
+        "license": "../Production_Clickwrap_Template-_EP_Analog v2.pdf",
+        "image": "../logo_TEMP.png",
+        "location": "../frontPage.html",
+        "devices": [
+            "IWR1443",
+            "AWR1443",
+            "IWR1642",
+            "AWR1642",
+            "IWR1843",
+            "AWR1843",
+            "IWR6843",
+            "AWR6843",
+            "IWR6843AOP",
+            "AWR6843AOP",
+            "IWRL6432",
+            "AWRL6432",
+            "AWR2944",
+            "IWR2944"
+        ],
+        "dependencies": [
+            {
+                "packageId": "com.ti.MMWAVE_SDK",
+                "version": "03.06.00.00-LTS",
+                "require": "optional"
+            },
+            {
+                "packageId": "com.ti.MMWAVE_SDK",
+                "version": "02.01.00.04",
+                "require": "optional"
+            },
+            {
+                "packageId": "com.ti.MCU_PLUS_SDK_XWRL64XX",
+                "version": "05.00.00.00",
+                "require": "optional"
+            }
+        ],
+        "description": "The Radar Toolbox is a collection of example code and documentation used to make it easier to go through evaluation of TI radar devices",
+        "rootCategory": [
+            "mmWave Sensors",
+            "Radar Toolbox"
+        ],
+        "tags": [
+            "Radar",
+            "mmWave",
+            "sensor",
+            "toolbox"
+        ]
+    }
+]

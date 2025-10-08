@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<projectSpec>
+    <project
+        name="xwr18xx_intf_demo_mss"
+        deviceFamily="ARM"
+        isTargetManual="false"
+        device="Cortex R.AWR1843"
+        endianness="little"
+        cgtVersion="16.9.6.LTS"
+        connection="common/targetdb/connections/TIXDS110_Connection.xml"
+        toolChain="TI"
+        linkerCommandFile="mss/mmw_mss_linker.cmd"
+        preannouncebuildStep="Deleting old BIN format image"
+        preBuildStep="rm -f ${PROJECT_ROOT}/xwr18xx_intf_demo_mss.bin;"
+        postannouncebuildStep="Preparing BIN format image"
+        postBuildStep="${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/scripts/ImageCreator/out2rprc/out2rprc.exe xwr18xx_intf_demo_mss.xer4f xwr18xx_intf_demo_mss.bin;
+                       ${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/scripts/ImageCreator/multicore_image_generator/MulticoreImageGen.exe LE 37 0x00000006 xwr18xx_intf_demo.bin 0x35510000 ${WORKSPACE_LOC}/xwr18xx_intf_demo_mss/Debug/xwr18xx_intf_demo_mss.bin 0xb5510000 ${COM_TI_MMWAVE_SDK_INSTALL_DIR}/firmware/radarss/xwr18xx_radarss_rprc.bin 0xd5510000 ${WORKSPACE_LOC}/xwr18xx_intf_demo_dss/Debug/xwr18xx_intf_demo_dss.bin;
+                       ${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/scripts/ImageCreator/crc_multicore_image/crc_multicore_image.exe xwr18xx_intf_demo.bin xwr18xx_intf_demo.bin.tmp;
+                       ${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/scripts/ImageCreator/append_bin_crc/gen_bincrc32.exe xwr18xx_intf_demo.bin"
+        description="mmWave Out of box demo: mmw"
+        launchWizard="false"
+        configurations="Debug, Release"
+        compilerBuildOptions="
+        -mv7R4 --code_state=16 --float_support=VFPv3D16 --abi=eabi -me
+        -g -O3 -display_error_number --diag_warning=225 --diag_wrap=off
+        --little_endian --preproc_with_compile --gen_func_subsections=on
+        --emit_warnings_as_errors --enum_type=int -eo=.oer4f
+        -I${PROJECT_ROOT}
+        -I${CG_TOOL_ROOT}/include
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages
+        --define=SOC_XWR18XX
+        --define=SUBSYS_MSS
+        --define=_LITTLE_ENDIAN
+        --define=DebugP_ASSERT_ENABLED
+        --define=DebugP_LOG_ENABLED
+        --define=DOWNLOAD_FROM_CCS
+        --define=HARDCODE_APP_RESOURCE_FILE
+        --define=SHMEM_ALLOC=0x00000008
+        --define=MMWAVE_SHMEM_BANK_SIZE=0x20000
+        --define=MMWAVE_L3RAM_NUM_BANK=8
+        --define=MMWAVE_SHMEM_TCMA_NUM_BANK=0
+        --define=MMWAVE_SHMEM_TCMB_NUM_BANK=0"
+        linkerBuildOptions="
+        -mv7R4 -me -g
+        -mxwr18xx_intf_demo_mss.map -oxwr18xx_intf_demo_mss.xer4f
+        --display_error_number --diag_warning=225 --diag_wrap=off
+        --reread_libs --warn_sections --rom_model --unused_section_elimination=on
+        --emit_warnings_as_errors
+        --define=SHMEM_ALLOC=0x00000008
+        --define=MMWAVE_SHMEM_BANK_SIZE=0x20000
+        --define=MMWAVE_L3RAM_NUM_BANK=8
+        --define=MMWAVE_SHMEM_TCMA_NUM_BANK=0
+        --define=MMWAVE_SHMEM_TCMB_NUM_BANK=0
+        -I${CG_TOOL_ROOT}/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/osal/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/soc/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/crc/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/esm/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/uart/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/mailbox/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/control/mmwavelink/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/control/mmwave/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/dma/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/edma/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/adcbuf/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/cbuff/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/utils/hsiheader/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/utils/mathutils/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/control/dpm/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/utils/cli/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/gpio/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/pinmux/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/qspi/lib
+        -I${COM_TI_MMWAVE_SDK_INSTALL_DIR}/packages/ti/drivers/qspiflash/lib
+        -lrtsv7R4_T_le_v3D16_eabi.lib
+        -llibosal_xwr18xx.aer4f
+        -llibsoc_xwr18xx.aer4f
+        -llibcrc_xwr18xx.aer4f
+        -llibesm_xwr18xx.aer4f
+        -llibuart_xwr18xx.aer4f
+        -llibmailbox_xwr18xx.aer4f
+        -llibmmwavelink_xwr18xx.aer4f
+        -llibmmwave_xwr18xx.aer4f
+        -llibdma_xwr18xx.aer4f
+        -llibedma_xwr18xx.aer4f
+        -llibadcbuf_xwr18xx.aer4f
+        -llibcbuff_xwr18xx.aer4f
+        -llibhsiheader_xwr18xx.aer4f
+        -llibmathutils.aer4f
+        -llibdpm_xwr18xx.aer4f
+        -llibcli_xwr18xx.aer4f
+        -llibgpio_xwr18xx.aer4f
+        -llibpinmux_xwr18xx.aer4f
+        -llibqspi_xwr18xx.aer4f
+        -llibqspiflash_xwr18xx.aer4f">
+
+        <!-- Project properties -->
+
+        <!-- Project properties -->
+        <property name="type" value="rtsc"/>
+        <property name="products" value="com.ti.rtsc.SYSBIOS:6.73.1.01;com.ti.MMWAVE_SDK:3.5.0.04;"/>
+        <property name="xdcToolsVersion" value="3.50.08.24_core"/>
+        <property name="target" value="ti.targets.arm.elf.R4F"/>
+        <property name="platform" value="ti.platforms.cortexR:AWR18XX:false:600"/>
+        <property name="endianness" value="little"/>
+        <property name="output_format" value="elf"/>
+        <property name="buildProfile" value="release"/>
+        <property name="configuroOptions" value="--compileOptions &quot;--enum_type=int &quot; "/>
+
+        <!-- Project files -->
+        <file path="datapath/dpc/objectdetection/objdethwa/objectdetection.h" targetDirectory="datapath/dpc/objectdetection/objdethwa" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="datapath/dpu/rangeproc/rangeprochwa.h" targetDirectory="datapath/dpu/rangeproc" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="datapath/dpu/rangeproc/rangeproc_common.h" targetDirectory="datapath/dpu/rangeproc" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="mss/utils/mmwdemo_adcconfig.c" targetDirectory="utils" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="mss/utils/mmwdemo_flash.c" targetDirectory="utils" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="mss/utils/mmwdemo_monitor.c" targetDirectory="utils" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="mss/utils/mmwdemo_rfparser.c" targetDirectory="utils" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="mss/utils/mmwdemo_error.h" targetDirectory="utils" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="mss/utils/mmwdemo_adcconfig.h" targetDirectory="utils" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="mss/utils/mmwdemo_flash.h" targetDirectory="utils" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="mss/utils/mmwdemo_monitor.h" targetDirectory="utils" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="mss/utils/mmwdemo_rfparser.h" targetDirectory="utils" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="include/mmw_config.h" targetDirectory="include" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="include/mmw_output.h" targetDirectory="include" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="mss/mss_main.c" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="mss/mmw_mss.cfg" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="mss/mmw_mss.h" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="mss/mmw_cli.c" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="mss/mmw_lvds_stream.c" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="mss/mmw_lvds_stream.h" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="mmw_res.h" openOnCreation="false" excludeFromBuild="false" action="copy"/>
+        <file path="COM_TI_MMWAVE_SDK_INSTALL_DIR/packages/ti/platform/xwr18xx/r4f_linker.cmd" openOnCreation="false" excludeFromBuild="false"/>
+
+    </project>
+</projectSpec>

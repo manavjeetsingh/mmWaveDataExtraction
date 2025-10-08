@@ -1,0 +1,22 @@
+[
+    {
+        "files": [
+            "+dss/utils/mmwdemo_rfparser.h -> utils/mmwdemo_rfparser.h",
+            "+dss/utils/mmwdemo_adcconfig.h -> utils/mmwdemo_adcconfig.h",
+            "+dss/utils/mmwdemo_error.h -> utils/mmwdemo_error.h",
+            "+datapath/dpc/objectdetection/objdethwa/src/objectdetection.c -> datapath/dpc/objectdetection/objdethwa/src/objectdetection.c",
+            "+datapath/dpc/objectdetection/objdethwa/include/objectdetectioninternal.h -> datapath/dpc/objectdetection/objdethwa/include/objectdetectioninternal.h",
+            "+datapath/dpc/objectdetection/objdethwa/objectdetection.h -> datapath/dpc/objectdetection/objdethwa/objectdetection.h",
+            "+datapath/dpu/rangeproc/rangeprochwa.h -> datapath/dpu/rangeproc/rangeprochwa.h",
+            "+datapath/dpu/rangeproc/rangeproc_common.h -> datapath/dpu/rangeproc/rangeproc_common.h",
+            "+datapath/dpu/rangeproc/lib/librangeproc_hwa_xwr18xx.ae674 -> datapath/dpu/rangeproc/lib/librangeproc_hwa_xwr18xx.ae674",
+            "+include/mmw_config.h -> include/mmw_config.h",
+            "+include/mmw_output.h -> include/mmw_output.h",
+            "+dss/dss_main.c -> dss_main.c",
+            "+dss/mmw_dss.cfg -> mmw_dss.cfg",
+            "+dss/mmw_dss.h -> mmw_dss.h",
+            "+dss/data_path.c -> data_path.c",
+            "+mmw_res.h -> mmw_res.h"
+        ]
+    }
+]

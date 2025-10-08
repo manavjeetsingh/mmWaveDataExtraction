@@ -1,0 +1,34 @@
+[
+    {
+        "files": [
+            "+mss/diag_mon_mss_main.c -> diag_mon_mss_main.c",
+            "+mss/diag_mon_mss.h -> diag_mon_mss.h",
+            "+mss/diag_mon_mss_linker.cmd -> diag_mon_mss_linker.cmd",
+            "+mss/r4f_linker.cmd -> r4f_linker.cmd",
+            "+mss/diag_mon_mss.cfg -> diag_mon_mss.cfg",
+            "+common/diag_mon_config.h -> common/diag_mon_config.h",
+            "+common/diag_mon_output.h -> common/diag_mon_output.h",
+            "+common/rfmonitor.c -> common/rfmonitor.c",
+            "+common/rfmonitor_defaultCfg.c -> common/rfmonitor_defaultCfg.c",
+            "+common/mmwl_if.c -> common/mmwl_if.c",
+            "+common/mmwl_osi_tirtos.c -> common/mmwl_osi_tirtos.c",
+            "+osal/src/tirtos/osal_CycleprofilerP_tirtos.c -> osal/src/tirtos/osal_CycleprofilerP_tirtos.c",
+            "+osal/src/tirtos/osal_DebugP_tirtos.c -> osal/src/tirtos/osal_DebugP_tirtos.c",
+            "+osal/src/tirtos/osal_HwiP_tirtos.c -> osal/src/tirtos/osal_HwiP_tirtos.c",
+            "+osal/src/tirtos/osal_MemoryP_tirtos.c -> osal/src/tirtos/osal_MemoryP_tirtos.c",
+            "+osal/src/tirtos/osal_r4f_esmdrv_tirtos.c -> osal/src/tirtos/osal_r4f_esmdrv_tirtos.c",
+            "+osal/src/tirtos/osal_r4f_interrupt_tirtos.c -> osal/src/tirtos/osal_r4f_interrupt_tirtos.c",
+            "+osal/src/tirtos/osal_SemaphoreP_tirtos.c -> osal/src/tirtos/osal_SemaphoreP_tirtos.c",
+            "+osal/MemoryP.h -> osal/MemoryP.h",
+            "+osal/DebugP.h -> osal/DebugP.h",
+            "+osal/HwiP.h -> osal/HwiP.h",
+            "+osal/CycleprofilerP.h -> osal/CycleprofilerP.h",
+            "+osal/SemaphoreP.h -> osal/SemaphoreP.h",
+            "+osal/mmwave_sdk_port.h -> osal/mmwave_sdk_port.h",
+            "+osal/osal.h -> osal/osal.h",
+            "+osal/tirtos_config.h -> osal/tirtos_config.h",
+            "+diag/diag_mss.c -> diag/diag_mss.c",
+            "+diag/diag_error_code.h -> diag/diag_error_code.h"
+        ]
+    }
+]
