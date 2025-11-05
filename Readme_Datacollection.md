@@ -11,6 +11,8 @@ I recommend using VS Code. Open this repo in VS code.
 
 Following procedure is based on ```ti/radar_toolbox_1_00_00_26/tools/studio_cli/docs/mmwave_studio_CLI_Getting_Started_Guide.html``` with some additions.
 
+0. Dip Switches for DCA1000 Board -- SOP2 on, else off
+
 1. Configure your laptop's ethernet properties same as step 3 from: https://www.ti.com/lit/ml/spruik7/spruik7.pdf?ts=1759882289366
 2. Install VSCode_CLI_command_utility from ```ti\radar_toolbox_1_00_00_26\VSCode_CLI_command_utility```. How to install: https://www.youtube.com/watch?v=Z724l3mq2ag&t=29s. 
 3. Install Matlab runtime engine (v8.5.1 32-bit). This specific version only.
