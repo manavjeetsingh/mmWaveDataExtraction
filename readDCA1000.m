@@ -42,7 +42,7 @@ function [retVal] = readDCA1000(fileName)
     % change based on sensor config
     numADCSamples = 256; % number of ADC samples per chirp
     numADCBits = 16; % number of ADC bits per sample
-    numRX = 1; % number of receivers
+    numRX = 2; % number of receivers
     numLanes = 2; % do not change. number of lanes is always 2
     isReal = 0; % set to 1 if real only data, 0 if complex data0
     %% read file
