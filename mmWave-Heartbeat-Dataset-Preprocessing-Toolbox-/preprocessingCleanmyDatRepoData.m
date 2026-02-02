@@ -50,8 +50,8 @@ function P = getRadarParams()
     % Radar
     P.Fs_adc   = 4e6;
     P.c        = 3e8;
-    P.slope    = 77.006e12;
-    P.startFreq = 60e9;
+    P.slope    = 64.985e12;
+    P.startFreq = 77e9;
     P.lambda    = P.c / P.startFreq;
     
     % Chirp / frame timing
@@ -62,7 +62,7 @@ function P = getRadarParams()
     P.RangeFFT = 256;
     
     % File
-    P.binIdx = 4;
+    P.binIdx = 3;
     P.dataSubDir = fullfile('myDatRepoFormat','manavjeet');
 end
 

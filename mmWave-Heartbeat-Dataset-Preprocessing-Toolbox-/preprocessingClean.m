@@ -62,7 +62,7 @@ function P = getRadarParams()
     P.RangeFFT = 256;
     
     % File
-    P.binIdx = 2;
+    P.binIdx = 6;
     P.dataSubDir = fullfile('1023dataset','gby1023data');
 end
 
